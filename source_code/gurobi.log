@@ -1,0 +1,1361 @@
+
+Gurobi 10.0.3 (linux64, gurobi_cl) logging started Mon Oct 23 00:39:43 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-10-21
+Using license file /opt/gurobi/gurobi.lic
+
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (linux64)
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file output.lp
+Reading time = 0.03 seconds
+: 79 rows, 176 columns, 650 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 79 rows, 176 columns and 650 nonzeros
+Model fingerprint: 0x0c057664
+Variable types: 0 continuous, 176 integer (176 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Found heuristic solution: objective 11.0000000
+Presolve removed 29 rows and 76 columns
+Presolve time: 0.05s
+Presolved: 50 rows, 100 columns, 364 nonzeros
+Variable types: 0 continuous, 100 integer (100 binary)
+
+Root relaxation: objective 7.608696e+00, 57 iterations, 0.01 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    7.60870    0   19   11.00000    7.60870  30.8%     -    0s
+     0     0    8.00000    0    7   11.00000    8.00000  27.3%     -    0s
+H    0     0                       9.0000000    8.00000  11.1%     -    0s
+     0     0 infeasible    0         9.00000    9.00000  0.00%     -    0s
+
+Explored 1 nodes (110 simplex iterations) in 0.16 seconds (0.00 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 9 11 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+00, best bound 9.000000000000e+00, gap 0.0000%
+
+Wrote result file 'output.sol'
+
+
+Gurobi 10.0.3 (linux64, gurobi_cl) logging started Mon Oct 23 01:03:41 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-10-21
+Using license file /opt/gurobi/gurobi.lic
+
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (linux64)
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file output.lp
+Reading time = 0.09 seconds
+: 797 rows, 10921 columns, 55391 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 797 rows, 10921 columns and 55391 nonzeros
+Model fingerprint: 0x856edeae
+Variable types: 0 continuous, 10921 integer (10921 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 7e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Presolve removed 16 rows and 1043 columns
+Presolve time: 0.28s
+Presolved: 781 rows, 9878 columns, 34934 nonzeros
+Variable types: 0 continuous, 9878 integer (9724 binary)
+
+Root relaxation: objective 3.398182e+01, 2480 iterations, 0.17 seconds (0.20 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   33.98182    0  526          -   33.98182      -     -    0s
+     0     0   33.98182    0  522          -   33.98182      -     -    0s
+     0     0   33.98182    0  523          -   33.98182      -     -    1s
+     0     0   33.98182    0  522          -   33.98182      -     -    1s
+     0     0   33.98182    0  522          -   33.98182      -     -    1s
+     0     0   33.98182    0  522          -   33.98182      -     -    1s
+     0     0   33.98182    0  522          -   33.98182      -     -    1s
+     0     0   33.98182    0  522          -   33.98182      -     -    1s
+     0     0   33.98182    0  522          -   33.98182      -     -    1s
+     0     0   33.98182    0  522          -   33.98182      -     -    1s
+     0     0   33.98182    0  522          -   33.98182      -     -    1s
+     0     0   33.98182    0  643          -   33.98182      -     -    1s
+     0     0   33.98182    0  610          -   33.98182      -     -    1s
+     0     0   33.98182    0  586          -   33.98182      -     -    1s
+     0     0   33.98182    0  578          -   33.98182      -     -    1s
+     0     0   33.98182    0  578          -   33.98182      -     -    1s
+     0     0   33.98182    0  578          -   33.98182      -     -    1s
+     0     0   33.98182    0  579          -   33.98182      -     -    1s
+     0     0   33.98182    0  578          -   33.98182      -     -    1s
+     0     0   33.98182    0  577          -   33.98182      -     -    1s
+     0     0   33.98182    0  579          -   33.98182      -     -    1s
+     0     0   33.98182    0  579          -   33.98182      -     -    1s
+     0     0   33.98182    0  624          -   33.98182      -     -    1s
+     0     0   33.98182    0  601          -   33.98182      -     -    1s
+     0     0   33.98182    0  596          -   33.98182      -     -    1s
+     0     0   33.98182    0  578          -   33.98182      -     -    2s
+     0     0   34.00000    0  572          -   34.00000      -     -    2s
+     0     0   34.00000    0  399          -   34.00000      -     -    3s
+     0     0   34.00000    0  401          -   34.00000      -     -    3s
+     0     0   34.00000    0  470          -   34.00000      -     -    3s
+     0     0   34.00000    0  449          -   34.00000      -     -    3s
+     0     0   34.05127    0  664          -   34.05127      -     -    5s
+     0     0   35.00000    0  493          -   35.00000      -     -    5s
+     0     0   35.00000    0  507          -   35.00000      -     -    6s
+     0     0   35.00000    0  544          -   35.00000      -     -    6s
+     0     0   35.00000    0  604          -   35.00000      -     -    6s
+     0     0   35.00000    0  525          -   35.00000      -     -    7s
+     0     0   35.00000    0  532          -   35.00000      -     -    7s
+     0     0   35.00000    0  393          -   35.00000      -     -    8s
+     0     2   35.00000    0  342          -   35.00000      -     -    9s
+     1     3   35.00000    1  348          -   35.00000      -  4677   10s
+   340   239   35.00000   85  359          -   35.00000      -   114   15s
+*  705   317             313      65.0000000   35.00000  46.2%  75.9   16s
+   829   245   55.00000   84  393   65.00000   35.00000  46.2%  73.3   20s
+   834   248   58.00000   80  123   65.00000   58.00000  10.8%  72.9   25s
+   844   255   58.00000   67   55   65.00000   58.00000  10.8%  72.0   30s
+H  851   246                      58.0000000   58.00000  0.00%  71.5   33s
+
+Cutting planes:
+  Gomory: 14
+  Cover: 61
+  Projected implied bound: 2
+  Clique: 111
+  MIR: 50
+  StrongCG: 40
+  Flow cover: 74
+  GUB cover: 163
+  Zero half: 2
+  RLT: 6
+  Relax-and-lift: 89
+
+Explored 851 nodes (197295 simplex iterations) in 33.04 seconds (31.00 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 58 65 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.800000000000e+01, best bound 5.800000000000e+01, gap 0.0000%
+
+Wrote result file 'output.sol'
+
+
+Gurobi 10.0.3 (linux64, gurobi_cl) logging started Mon Oct 23 01:04:52 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-10-21
+Using license file /opt/gurobi/gurobi.lic
+
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (linux64)
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file output.lp
+Reading time = 1.79 seconds
+: 3730 rows, 250344 columns, 1405869 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 3730 rows, 250344 columns and 1405869 nonzeros
+Model fingerprint: 0xfded1b6a
+Variable types: 0 continuous, 250344 integer (250344 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Presolve removed 685 rows and 11603 columns (presolve time = 5s) ...
+Presolve removed 182 rows and 11100 columns
+Presolve time: 5.11s
+Presolved: 3548 rows, 239244 columns, 1009171 nonzeros
+Variable types: 0 continuous, 239244 integer (238741 binary)
+Deterministic concurrent LP optimizer: dual simplex and barrier
+Showing barrier log only...
+
+Root barrier log...
+
+Ordering time: 0.21s
+
+Barrier statistics:
+ AA' NZ     : 7.493e+05
+ Factor NZ  : 1.762e+06 (roughly 110 MB of memory)
+ Factor Ops : 1.152e+09 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   3.87440389e+07 -2.29752590e+06  3.04e+06 0.00e+00  1.42e+03     8s
+   1   1.24981702e+07 -1.90566739e+06  9.78e+05 1.18e-01  4.59e+02     9s
+   2   2.98140981e+06 -6.92039826e+05  2.30e+05 4.59e-02  1.10e+02     9s
+   3   4.54670577e+05 -8.57019882e+04  3.23e+04 8.78e-03  1.56e+01     9s
+   4   3.41779072e+04 -1.27840335e+04  2.32e+03 1.42e-14  1.14e+00     9s
+   5   2.45127298e+04 -1.00523917e+04  1.65e+03 7.11e-15  8.04e-01    10s
+   6   1.32005406e+04 -8.27129905e+03  8.40e+02 3.55e-15  4.19e-01    10s
+   7   3.28782822e+03 -6.13754183e+03  1.75e+02 7.11e-15  9.72e-02    10s
+   8   1.47026899e+03 -4.75635042e+03  6.92e+01 7.11e-15  4.23e-02    11s
+   9   8.01707328e+02 -3.51984611e+03  3.26e+01 7.11e-15  2.16e-02    11s
+  10   3.56215984e+02 -2.24650701e+03  8.17e+00 7.11e-15  7.85e-03    11s
+  11   2.49790941e+02 -1.57726059e+03  2.65e+00 3.55e-15  4.41e-03    11s
+  12   2.22976981e+02 -8.97045545e+02  1.41e+00 7.11e-15  2.53e-03    12s
+  13   2.11294106e+02 -4.90869645e+02  8.63e-01 7.11e-15  1.53e-03    12s
+  14   2.05816211e+02 -1.90102642e+02  5.98e-01 7.11e-15  8.46e-04    12s
+  15   1.99525564e+02 -6.01321156e+01  2.82e-01 3.55e-15  5.45e-04    12s
+  16   1.96188213e+02  7.56349892e+01  1.11e-01 3.55e-15  2.50e-04    12s
+  17   1.94952611e+02  1.35962153e+02  4.65e-02 7.11e-15  1.22e-04    12s
+  18   1.94495550e+02  1.74340821e+02  2.32e-02 3.55e-15  4.14e-05    13s
+  19   1.94188840e+02  1.87291730e+02  8.05e-03 1.42e-14  1.41e-05    13s
+  20   1.94075635e+02  1.90658198e+02  2.56e-03 3.55e-15  7.04e-06    13s
+  21   1.94052775e+02  1.93120354e+02  1.46e-03 7.11e-15  1.90e-06    13s
+  22   1.94022622e+02  1.93999676e+02  2.31e-05 3.55e-15  4.71e-08    13s
+  23   1.94022039e+02  1.94022038e+02  1.30e-09 7.11e-15  1.22e-12    14s
+
+Barrier solved model in 23 iterations and 13.70 seconds (11.95 work units)
+Optimal objective 1.94022039e+02
+
+  Building initial crossover basis                                15s
+  Building initial crossover basis                                20s
+
+Root crossover log...
+
+     333 DPushes remaining with DInf 0.0000000e+00                22s
+       0 DPushes remaining with DInf 0.0000000e+00                24s
+
+     231 PPushes remaining with PInf 6.2071456e-04                24s
+       0 PPushes remaining with PInf 0.0000000e+00                24s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 5.1130866e-14     24s
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+     564    1.9402204e+02   0.000000e+00   0.000000e+00     24s
+Concurrent spin time: 0.01s
+
+Solved with barrier
+
+Root relaxation: objective 1.940220e+02, 564 iterations, 16.52 seconds (7.88 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  194.02204    0 2237          -  194.02204      -     -   79s
+     0     0  194.02204    0 2244          -  194.02204      -     -   86s
+     0     0  194.02204    0 2245          -  194.02204      -     -   88s
+     0     0  194.02204    0 2244          -  194.02204      -     -   90s
+     0     0  194.02204    0 2244          -  194.02204      -     -   92s
+     0     0  194.20110    0 2230          -  194.20110      -     -  156s
+     0     0  194.20110    0 2231          -  194.20110      -     -  159s
+     0     0  194.20110    0 2233          -  194.20110      -     -  162s
+     0     0  194.20110    0 2233          -  194.20110      -     -  163s
+     0     0  194.20110    0 2233          -  194.20110      -     -  163s
+     0     0  194.20110    0 2233          -  194.20110      -     -  163s
+     0     0  194.20110    0 2234          -  194.20110      -     -  163s
+     0     0  194.20110    0 2234          -  194.20110      -     -  163s
+     0     0  194.20110    0 2234          -  194.20110      -     -  164s
+     0     0  194.20110    0 2234          -  194.20110      -     -  164s
+     0     0  194.20110    0 2234          -  194.20110      -     -  164s
+     0     0  194.20110    0 2345          -  194.20110      -     -  182s
+     0     0  194.20110    0 2342          -  194.20110      -     -  183s
+     0     0  194.20110    0 2334          -  194.20110      -     -  184s
+     0     0  194.20110    0 2332          -  194.20110      -     -  185s
+     0     0  194.20110    0 2329          -  194.20110      -     -  185s
+     0     0  194.20110    0 2332          -  194.20110      -     -  186s
+     0     0  194.20110    0 2332          -  194.20110      -     -  186s
+     0     0  194.20110    0 2332          -  194.20110      -     -  186s
+     0     0  194.20110    0 2332          -  194.20110      -     -  186s
+     0     0  194.20110    0 2332          -  194.20110      -     -  186s
+     0     0  194.20110    0 2332          -  194.20110      -     -  186s
+     0     0  194.20110    0 2477          -  194.20110      -     -  207s
+     0     0  194.20110    0 2458          -  194.20110      -     -  210s
+     0     0  194.20110    0 2452          -  194.20110      -     -  211s
+     0     0  194.20110    0 2450          -  194.20110      -     -  211s
+     0     0  194.20110    0 2449          -  194.20110      -     -  211s
+     0     0  194.20110    0 2449          -  194.20110      -     -  212s
+     0     0  194.20110    0 2449          -  194.20110      -     -  212s
+     0     0  194.20110    0 2449          -  194.20110      -     -  212s
+     0     0  194.20110    0 2449          -  194.20110      -     -  212s
+     0     0  194.20110    0 2449          -  194.20110      -     -  212s
+     0     0  194.20110    0 2449          -  194.20110      -     -  212s
+     0     0  194.20110    0 2214          -  194.20110      -     -  330s
+     0     0  194.20110    0 2208          -  194.20110      -     -  333s
+     0     0  194.20110    0 2213          -  194.20110      -     -  333s
+     0     0  194.20110    0 2211          -  194.20110      -     -  334s
+     0     0  194.20110    0 2211          -  194.20110      -     -  334s
+     0     0  194.20110    0 2211          -  194.20110      -     -  334s
+     0     0  194.20110    0 2211          -  194.20110      -     -  334s
+     0     0  194.20110    0 2211          -  194.20110      -     -  334s
+     0     0  194.20110    0 2211          -  194.20110      -     -  334s
+     0     0  194.20110    0 2211          -  194.20110      -     -  334s
+     0     0  194.20110    0 2211          -  194.20110      -     -  334s
+     0     0  194.20110    0 2287          -  194.20110      -     -  349s
+     0     0  194.20110    0 2278          -  194.20110      -     -  349s
+     0     0  194.20110    0 2276          -  194.20110      -     -  350s
+     0     0  194.20110    0 2277          -  194.20110      -     -  350s
+     0     0  194.20110    0 2277          -  194.20110      -     -  350s
+     0     0  194.20110    0 2277          -  194.20110      -     -  350s
+     0     0  194.20110    0 2277          -  194.20110      -     -  350s
+     0     0  194.20110    0 2277          -  194.20110      -     -  350s
+     0     0  194.20110    0 2277          -  194.20110      -     -  350s
+     0     0  194.20110    0 2277          -  194.20110      -     -  350s
+     0     0  194.20110    0 2277          -  194.20110      -     -  350s
+     0     0  194.20110    0 2431          -  194.20110      -     -  405s
+     0     0  194.20110    0 2411          -  194.20110      -     -  406s
+     0     0  194.20110    0 2407          -  194.20110      -     -  407s
+     0     0  194.20110    0 2407          -  194.20110      -     -  407s
+     0     0  194.20110    0 2407          -  194.20110      -     -  407s
+     0     0  194.20110    0 2407          -  194.20110      -     -  407s
+     0     0  194.20110    0 2407          -  194.20110      -     -  407s
+     0     0  194.20110    0 2407          -  194.20110      -     -  407s
+     0     0  194.20110    0 2407          -  194.20110      -     -  407s
+     0     0  194.20110    0 2407          -  194.20110      -     -  407s
+     0     0  194.20110    0 2407          -  194.20110      -     -  407s
+     0     0  194.20110    0 2458          -  194.20110      -     -  423s
+     0     0  194.20110    0 2441          -  194.20110      -     -  423s
+     0     0  194.20110    0 2441          -  194.20110      -     -  423s
+     0     0  194.20110    0 2441          -  194.20110      -     -  423s
+     0     0  194.20110    0 2441          -  194.20110      -     -  424s
+     0     0  194.20110    0 2441          -  194.20110      -     -  424s
+     0     0  194.20110    0 2441          -  194.20110      -     -  424s
+     0     0  194.20110    0 2441          -  194.20110      -     -  424s
+     0     0  194.20110    0 2441          -  194.20110      -     -  424s
+     0     0  194.20110    0 2441          -  194.20110      -     -  424s
+     0     0  194.20110    0 2441          -  194.20110      -     -  424s
+     0     0  194.20110    0 2561          -  194.20110      -     -  487s
+     0     0  194.20110    0 2541          -  194.20110      -     -  488s
+     0     0  194.20110    0 2519          -  194.20110      -     -  488s
+     0     0  194.20110    0 2519          -  194.20110      -     -  489s
+     0     0  194.20110    0 2519          -  194.20110      -     -  489s
+     0     0  194.20110    0 2519          -  194.20110      -     -  489s
+     0     0  194.20110    0 2519          -  194.20110      -     -  489s
+     0     0  194.20110    0 2519          -  194.20110      -     -  489s
+     0     0  194.20110    0 2519          -  194.20110      -     -  489s
+     0     0  194.20110    0 2519          -  194.20110      -     -  489s
+     0     0  194.20110    0 2519          -  194.20110      -     -  489s
+     0     0  194.20110    0 2519          -  194.20110      -     -  529s
+     0     2  194.20110    0 2519          -  194.20110      -     -  802s
+     1     3  194.20110    1 2519          -  194.20110      - 19528  986s
+     3     2  194.20110    2 2519          -  194.20110      - 30614  991s
+    50     3  194.20110   26 2519          -  194.20110      -  1858  995s
+    77     7  194.20110   41 2519          -  194.20110      -  1207 1075s
+    94    11  194.20110   52 2519          -  194.20110      -  1182 1098s
+   101    13  194.20110   57 2511          -  194.20110      -  1209 1109s
+   103    15  194.20110   58 2516          -  194.20110      -  1243 1111s
+   107    19  194.20110   60 2522          -  194.20110      -  1226 1165s
+   113    22  194.20110   63 2517          -  194.20110      -  1366 1170s
+   115    26  194.20110   64 2516          -  194.20110      -  1354 1175s
+   120    27  194.20110   67 2518          -  194.20110      -  1380 1207s
+   124    33  194.20110   69 2525          -  194.20110      -  1437 1247s
+   130    43  194.20110   73 2525          -  194.20110      -  1458 1250s
+   142    47  194.20110   81 2525          -  194.20110      -  1353 1263s
+   148    55  194.20937   86 2521          -  194.20110      -  1336 1289s
+   158    68  194.20937   95 2521          -  194.20110      -  1317 1293s
+   171    70  194.20937  106 2521          -  194.20110      -  1265 1310s
+   188    78  194.20937  111 2527          -  194.20110      -  1241 1340s
+   196    81  194.20937  113 2504          -  194.20110      -  1291 1404s
+   201    84  194.20937  116 2511          -  194.20110      -  1407 1419s
+   208    85  196.00000  117 2459          -  194.20110      -  1412 1432s
+   213    86 infeasible  120               -  194.20110      -  1472 1466s
+   218    84 infeasible  120               -  194.20110      -  1515 1474s
+   222    96  363.00000   58 2180          -  194.20110      -  1598 1480s
+   234    99  363.00000   65 2239          -  194.20110      -  1588 1489s
+   239   101  363.00000   66 1972          -  194.20110      -  1663 1498s
+   245   100 infeasible   69               -  194.20110      -  1749 1538s
+   250   101  363.00000   70 1877          -  194.20110      -  1839 1553s
+   257   102  363.00000   72 1875          -  194.20110      -  1846 1574s
+   263   104  363.00000   74 1866          -  194.20110      -  1886 1594s
+   284   106  363.00000   83 1893          -  194.20110      -  1851 1610s
+   290   111  363.00000   86 1825          -  194.20110      -  1938 1632s
+   301   111  363.00000   90 1856          -  194.20110      -  2006 1649s
+   307   121  363.00000   93 1819          -  194.20110      -  2058 1667s
+   323   123  363.00000   97 1818          -  194.20110      -  2091 1677s
+   333   122 infeasible  100               -  194.20110      -  2182 1686s
+
+Cutting planes:
+  Learned: 1
+  Cover: 67
+  Implied bound: 10
+  Clique: 621
+  MIR: 24
+  StrongCG: 9
+  GUB cover: 125
+  Zero half: 3
+  RLT: 30
+  Relax-and-lift: 76
+
+Explored 336 nodes (936340 simplex iterations) in 1686.46 seconds (1666.01 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 0
+
+Solve interrupted
+Best objective -, best bound 1.950000000000e+02, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.3 (linux64, gurobi_cl) logging started Mon Oct 23 16:40:57 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+
+Gurobi 10.0.3 (linux64, gurobi_cl) logging started Tue Oct 24 17:14:59 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-10-23
+Using license file /opt/gurobi/gurobi.lic
+
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (linux64)
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file output.lp
+Reading time = 0.05 seconds
+: 171 rows, 252 columns, 1017 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 171 rows, 252 columns and 1017 nonzeros
+Model fingerprint: 0xfc6bd29f
+Variable types: 0 continuous, 252 integer (252 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 6e+00]
+  Objective range  [1e+00, 6e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 6.0000000
+Presolve removed 171 rows and 252 columns
+Presolve time: 0.08s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.18 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 6 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.000000000000e+00, best bound 6.000000000000e+00, gap 0.0000%
+
+Wrote result file 'output.sol'
+
+
+Gurobi 10.0.3 (linux64, gurobi_cl) logging started Tue Oct 24 17:30:46 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+
+Gurobi 10.0.3 (linux64, gurobi_cl) logging started Tue Oct 24 17:32:24 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-10-23
+Using license file /opt/gurobi/gurobi.lic
+
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (linux64)
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Error reading LP format file output.lp at line 52
+Malformed term in expression
+Neighboring tokens: " c47: c48: l2000(1) + l2000(2) + l2000(3) + l2000(4) "
+
+
+Error 10012: Unable to read file
+
+
+Gurobi 10.0.3 (linux64, gurobi_cl) logging started Tue Oct 24 17:55:12 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-10-23
+Using license file /opt/gurobi/gurobi.lic
+
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (linux64)
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file output.lp
+Reading time = 0.09 seconds
+: 789 rows, 5928 columns, 23195 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 789 rows, 5928 columns and 23195 nonzeros
+Model fingerprint: 0x625ed200
+Variable types: 0 continuous, 5928 integer (5928 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+01]
+  Objective range  [1e+00, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+01]
+Presolve removed 254 rows and 1320 columns
+Presolve time: 0.20s
+Presolved: 535 rows, 4608 columns, 17305 nonzeros
+Variable types: 0 continuous, 4608 integer (4596 binary)
+
+Root relaxation: objective 1.529016e+01, 2204 iterations, 0.10 seconds (0.09 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   15.29016    0  476          -   15.29016      -     -    0s
+     0     0   15.29016    0  476          -   15.29016      -     -    0s
+     0     0   15.29016    0  476          -   15.29016      -     -    0s
+     0     0   15.29016    0  476          -   15.29016      -     -    0s
+     0     0   15.29016    0  476          -   15.29016      -     -    0s
+     0     0   15.29016    0  476          -   15.29016      -     -    0s
+     0     0   15.29016    0  476          -   15.29016      -     -    0s
+     0     0   15.29016    0  476          -   15.29016      -     -    0s
+     0     0   15.29016    0  476          -   15.29016      -     -    0s
+     0     0   15.29016    0  476          -   15.29016      -     -    0s
+     0     0   16.00000    0  429          -   16.00000      -     -    0s
+     0     0   16.07483    0  531          -   16.07483      -     -    1s
+     0     0   17.00000    0  417          -   17.00000      -     -    1s
+     0     0   17.00000    0  410          -   17.00000      -     -    1s
+     0     0   17.00000    0  415          -   17.00000      -     -    1s
+     0     0   17.00000    0  503          -   17.00000      -     -    1s
+     0     0   17.00000    0  330          -   17.00000      -     -    1s
+H    0     0                      26.0000000   17.00000  34.6%     -    1s
+     0     2   17.00000    0  288   26.00000   17.00000  34.6%     -    1s
+H  323   167                      24.0000000   17.00000  29.2%  41.1    3s
+   790   363   23.00000  132  330   24.00000   17.00000  29.2%  52.7    5s
+H  798   349                      22.0000000   22.00000  0.00%  52.1    6s
+
+Cutting planes:
+  Gomory: 33
+  Cover: 50
+  Implied bound: 4
+  Clique: 163
+  MIR: 17
+  StrongCG: 17
+  Flow cover: 40
+  GUB cover: 78
+  Zero half: 12
+  RLT: 6
+  Relax-and-lift: 16
+
+Explored 798 nodes (80062 simplex iterations) in 6.19 seconds (6.37 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 22 24 26 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.200000000000e+01, best bound 2.200000000000e+01, gap 0.0000%
+
+Wrote result file 'output.sol'
+
+
+Gurobi 10.0.3 (linux64, gurobi_cl) logging started Tue Oct 24 17:55:25 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-10-23
+Using license file /opt/gurobi/gurobi.lic
+
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (linux64)
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file output.lp
+Reading time = 0.05 seconds
+: 551 rows, 2625 columns, 9557 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 551 rows, 2625 columns and 9557 nonzeros
+Model fingerprint: 0x268ec95d
+Variable types: 0 continuous, 2625 integer (2625 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 15.0000000
+Presolve removed 177 rows and 618 columns
+Presolve time: 0.09s
+Presolved: 374 rows, 2007 columns, 7441 nonzeros
+Variable types: 0 continuous, 2007 integer (2007 binary)
+
+Root relaxation: objective 9.333333e+00, 1019 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    9.33333    0  326   15.00000    9.33333  37.8%     -    0s
+     0     0    9.36331    0  427   15.00000    9.36331  37.6%     -    0s
+     0     0    9.36331    0  421   15.00000    9.36331  37.6%     -    0s
+     0     0    9.36331    0  417   15.00000    9.36331  37.6%     -    0s
+     0     0   10.00000    0  307   15.00000   10.00000  33.3%     -    0s
+H    0     0                      14.0000000   10.00000  28.6%     -    0s
+     0     0   10.00000    0  305   14.00000   10.00000  28.6%     -    0s
+     0     0   10.00000    0  329   14.00000   10.00000  28.6%     -    0s
+     0     0   10.00000    0  221   14.00000   10.00000  28.6%     -    0s
+H    0     0                      13.0000000   10.00000  23.1%     -    0s
+     0     0     cutoff    0        13.00000   13.00000  0.00%     -    0s
+
+Explored 1 nodes (7619 simplex iterations) in 0.80 seconds (0.41 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 13 14 15 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.300000000000e+01, best bound 1.300000000000e+01, gap 0.0000%
+
+Wrote result file 'output.sol'
+
+
+Gurobi 10.0.3 (linux64, gurobi_cl) logging started Tue Oct 24 17:55:33 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-10-23
+Using license file /opt/gurobi/gurobi.lic
+
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (linux64)
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file output.lp
+Reading time = 0.06 seconds
+: 877 rows, 7140 columns, 29718 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 877 rows, 7140 columns and 29718 nonzeros
+Model fingerprint: 0xf83bfb02
+Variable types: 0 continuous, 7140 integer (7140 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+01]
+  Objective range  [1e+00, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+01]
+Presolve removed 199 rows and 1068 columns
+Presolve time: 0.16s
+Presolved: 678 rows, 6072 columns, 20799 nonzeros
+Variable types: 0 continuous, 6072 integer (6011 binary)
+
+Root relaxation: objective 1.641176e+01, 2704 iterations, 0.15 seconds (0.16 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   16.41176    0  593          -   16.41176      -     -    0s
+     0     0   16.41176    0  593          -   16.41176      -     -    0s
+     0     0   16.41176    0  593          -   16.41176      -     -    0s
+     0     0   16.41176    0  593          -   16.41176      -     -    0s
+     0     0   16.41176    0  593          -   16.41176      -     -    0s
+     0     0   16.41176    0  593          -   16.41176      -     -    0s
+     0     0   16.41176    0  593          -   16.41176      -     -    0s
+     0     0   16.41176    0  593          -   16.41176      -     -    0s
+     0     0   16.41176    0  593          -   16.41176      -     -    0s
+     0     0   16.41176    0  593          -   16.41176      -     -    0s
+     0     0   16.41176    0  593          -   16.41176      -     -    0s
+H    0     0                      28.0000000   16.41176  41.4%     -    0s
+     0     0   17.00000    0  608   28.00000   17.00000  39.3%     -    1s
+     0     0   17.00000    0  600   28.00000   17.00000  39.3%     -    1s
+     0     0   17.00000    0  518   28.00000   17.00000  39.3%     -    1s
+     0     0   17.00000    0  486   28.00000   17.00000  39.3%     -    2s
+     0     0   17.09349    0  686   28.00000   17.09349  39.0%     -    2s
+     0     0   18.00000    0  497   28.00000   18.00000  35.7%     -    2s
+     0     0   18.00000    0  480   28.00000   18.00000  35.7%     -    2s
+     0     0   18.00000    0  409   28.00000   18.00000  35.7%     -    3s
+     0     0   18.00000    0  467   28.00000   18.00000  35.7%     -    3s
+     0     0   18.00000    0  612   28.00000   18.00000  35.7%     -    4s
+     0     0   18.00000    0  389   28.00000   18.00000  35.7%     -    4s
+     0     2   18.00000    0  389   28.00000   18.00000  35.7%     -    5s
+H  114   112                      27.0000000   18.00000  33.3%  58.8    8s
+   235   149   22.00000   62  347   27.00000   18.00000  33.3%  47.1   10s
+H  634   482                      26.0000000   18.00000  30.8%  45.8   12s
+
+Explored 733 nodes (87307 simplex iterations) in 14.89 seconds (12.30 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 26 27 28 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.600000000000e+01, best bound 2.600000000000e+01, gap 0.0000%
+
+Wrote result file 'output.sol'
+
+
+Gurobi 10.0.3 (linux64, gurobi_cl) logging started Tue Oct 24 17:56:05 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-10-23
+Using license file /opt/gurobi/gurobi.lic
+
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (linux64)
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Error reading LP format file output.lp at line 52
+Malformed term in expression
+Neighboring tokens: " c47: c48: l2000(1) + l2000(2) + l2000(3) + l2000(4) "
+
+
+Error 10012: Unable to read file
+
+
+Gurobi 10.0.3 (linux64, gurobi_cl) logging started Tue Oct 24 17:56:19 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-10-23
+Using license file /opt/gurobi/gurobi.lic
+
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (linux64)
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Error reading LP format file output.lp at line 52
+Malformed term in expression
+Neighboring tokens: " c47: c48: j3159(1) + j3159(2) + j3159(3) + j3159(4) "
+
+
+Error 10012: Unable to read file
+
+
+Gurobi 10.0.3 (linux64, gurobi_cl) logging started Tue Oct 24 17:58:36 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-10-23
+Using license file /opt/gurobi/gurobi.lic
+
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (linux64)
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file output.lp
+Reading time = 0.03 seconds
+: 62 rows, 56 columns, 283 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 62 rows, 56 columns and 283 nonzeros
+Model fingerprint: 0xf1d7645b
+Variable types: 0 continuous, 56 integer (56 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+00]
+  Objective range  [1e+00, 4e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+01]
+Found heuristic solution: objective 4.0000000
+Presolve removed 62 rows and 56 columns
+Presolve time: 0.04s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.12 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 4 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.000000000000e+00, best bound 4.000000000000e+00, gap 0.0000%
+
+Wrote result file 'output.sol'
+
+
+Gurobi 10.0.3 (linux64, gurobi_cl) logging started Tue Oct 24 17:58:51 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-10-23
+Using license file /opt/gurobi/gurobi.lic
+
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (linux64)
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Error reading LP format file output.lp at line 52
+Malformed term in expression
+Neighboring tokens: " c47: c48: l397(1) + l397(2) + l397(3) + l397(4) "
+
+
+Error 10012: Unable to read file
+
+
+Gurobi 10.0.3 (linux64, gurobi_cl) logging started Tue Oct 24 19:08:18 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-10-23
+Using license file /opt/gurobi/gurobi.lic
+
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (linux64)
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file output.lp
+Reading time = 5.61 seconds
+: 14766 rows, 650297 columns, 4197339 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 14766 rows, 650297 columns and 4197339 nonzeros
+Model fingerprint: 0x01357691
+Variable types: 0 continuous, 650297 integer (650297 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+01]
+Presolve removed 3301 rows and 25753 columns (presolve time = 5s) ...
+Presolve removed 3303 rows and 29609 columns (presolve time = 10s) ...
+Presolve added 48 rows and 0 columns
+Presolve removed 0 rows and 26258 columns
+Presolve time: 12.67s
+Presolved: 14814 rows, 624039 columns, 2260943 nonzeros
+Variable types: 0 continuous, 624039 integer (620688 binary)
+Deterministic concurrent LP optimizer: dual simplex and barrier
+Showing barrier log only...
+
+Root barrier log...
+
+Ordering time: 0.04s
+
+Barrier statistics:
+ AA' NZ     : 1.038e+06
+ Factor NZ  : 3.722e+06 (roughly 170 MB of memory)
+ Factor Ops : 1.808e+09 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   4.25445530e+06 -1.55109816e+06  5.25e+05 0.00e+00  1.71e+02    20s
+   1   3.18777423e+06 -1.25452883e+06  3.92e+05 6.35e-02  1.24e+02    21s
+   2   9.88863201e+05 -6.29364267e+05  1.19e+05 5.33e-15  3.86e+01    21s
+   3   4.78860194e+05 -4.20282992e+05  5.66e+04 3.55e-15  1.83e+01    22s
+   4   4.04191505e+05 -3.12429655e+05  4.74e+04 3.55e-15  1.48e+01    22s
+   5   3.60453860e+05 -2.63455192e+05  4.20e+04 3.55e-15  1.31e+01    23s
+   6   3.20131430e+05 -1.80327811e+05  3.70e+04 4.77e-15  1.11e+01    23s
+   7   2.86546730e+05 -7.97089161e+04  3.30e+04 4.39e-15  9.38e+00    24s
+   8   1.32020552e+05 -2.88732807e+04  1.41e+04 7.11e-15  4.09e+00    24s
+   9   3.34210755e+04 -1.35827567e+04  3.48e+03 5.83e-15  1.03e+00    24s
+  10   1.62852826e+04 -9.51016765e+03  1.68e+03 6.80e-15  4.99e-01    25s
+  11   1.15795825e+04 -8.44027727e+03  1.18e+03 5.52e-15  3.51e-01    25s
+  12   9.64995111e+03 -7.69669057e+03  9.75e+02 5.16e-15  2.89e-01    26s
+  13   8.67637951e+03 -7.24757946e+03  8.71e+02 7.11e-15  2.57e-01    26s
+  14   6.55092344e+03 -6.27560853e+03  6.45e+02 5.33e-15  1.90e-01    26s
+  15   5.00947593e+03 -5.64844621e+03  4.79e+02 5.97e-15  1.41e-01    27s
+  16   1.30611447e+03 -4.39706977e+03  9.34e+01 7.11e-15  3.37e-02    27s
+  17   8.48091962e+02 -3.32956636e+03  4.80e+01 3.55e-15  1.99e-02    28s
+  18   7.30572377e+02 -2.60986921e+03  2.78e+01 7.11e-15  1.55e-02    28s
+  19   5.46157823e+02 -1.89122721e+03  1.55e+01 7.11e-15  1.03e-02    28s
+  20   4.64719380e+02 -1.45678804e+03  1.21e+01 7.11e-15  7.90e-03    29s
+  21   4.15859558e+02 -1.34380388e+03  1.01e+01 7.11e-15  6.81e-03    29s
+  22   3.72559048e+02 -1.24618302e+03  8.55e+00 7.11e-15  5.91e-03    30s
+  23   2.96876388e+02 -1.10978773e+03  5.77e+00 7.11e-15  4.40e-03    31s
+  24   2.61959484e+02 -8.99128247e+02  4.57e+00 1.07e-14  3.43e-03    31s
+  25   2.33955924e+02 -7.06118005e+02  3.74e+00 1.07e-14  2.60e-03    32s
+  26   1.90893281e+02 -4.64368359e+02  2.51e+00 1.07e-14  1.55e-03    32s
+  27   1.75178677e+02 -2.94879741e+02  2.09e+00 7.11e-15  1.02e-03    33s
+  28   1.53131148e+02 -1.77415659e+02  1.50e+00 7.11e-15  6.40e-04    33s
+  29   1.41817782e+02 -7.94569607e+01  1.22e+00 3.55e-15  3.89e-04    34s
+  30   1.30136512e+02 -8.89398502e+00  9.70e-01 3.55e-15  2.21e-04    34s
+  31   1.21607630e+02  1.19532433e+01  8.50e-01 1.78e-15  1.67e-04    35s
+  32   1.15577269e+02  1.76576022e+01  7.63e-01 3.55e-15  1.47e-04    35s
+  33   1.10377302e+02  2.40225057e+01  6.81e-01 3.55e-15  1.28e-04    36s
+  34   1.06704432e+02  3.30298571e+01  6.14e-01 3.55e-15  1.08e-04    36s
+  35   1.04011339e+02  4.23278759e+01  5.50e-01 3.55e-15  8.86e-05    37s
+  36   1.02742207e+02  4.74332945e+01  5.12e-01 1.78e-15  7.86e-05    37s
+  37   1.01305866e+02  6.10316321e+01  4.66e-01 3.75e-15  5.45e-05    38s
+  38   9.80549126e+01  6.91197131e+01  3.45e-01 3.55e-15  3.82e-05    38s
+  39   9.67130085e+01  7.29566579e+01  2.90e-01 3.55e-15  3.09e-05    38s
+  40   9.54027656e+01  7.77797738e+01  2.33e-01 3.55e-15  2.23e-05    39s
+  41   9.47403739e+01  8.67480423e+01  2.05e-01 1.78e-15  7.66e-06    39s
+  42   9.34816709e+01  8.79635954e+01  1.49e-01 3.55e-15  5.06e-06    40s
+  43   9.27571204e+01  8.91116195e+01  1.17e-01 1.78e-15  2.87e-06    40s
+  44   9.19273357e+01  8.92694867e+01  8.10e-02 8.88e-16  2.19e-06    41s
+  45   9.17785366e+01  8.94178790e+01  7.42e-02 1.78e-15  1.89e-06    41s
+  46   9.14886846e+01  8.98600799e+01  6.18e-02 3.55e-15  1.05e-06    42s
+  47   9.07393125e+01  8.99735580e+01  2.92e-02 3.55e-15  4.89e-07    42s
+  48   9.06766289e+01  9.00419935e+01  2.66e-02 1.78e-15  3.51e-07    43s
+  49   9.01916119e+01  9.00475143e+01  5.15e-03 1.78e-15  1.00e-07    43s
+  50   9.01336845e+01  9.00603933e+01  2.78e-03 3.55e-15  4.72e-08    44s
+  51   9.01188611e+01  9.00654623e+01  2.16e-03 3.55e-15  3.12e-08    44s
+  52   9.00687465e+01  9.00666709e+01  6.66e-05 3.55e-15  1.62e-09    44s
+  53   9.00686928e+01  9.00668160e+01  6.43e-05 3.55e-15  1.37e-09    45s
+  54   9.00672243e+01  9.00671916e+01  3.37e-10 3.55e-15  4.98e-11    45s
+  55   9.00672226e+01  9.00672203e+01  5.94e-09 2.89e-14  3.50e-12    46s
+  56   9.00672215e+01  9.00672213e+01  1.09e-09 1.06e-13  1.97e-13    46s
+
+Barrier solved model in 56 iterations and 46.22 seconds (34.10 work units)
+Optimal objective 9.00672215e+01
+
+  Building initial crossover basis                                50s
+
+Root crossover log...
+
+     145 DPushes remaining with DInf 0.0000000e+00                54s
+       0 DPushes remaining with DInf 0.0000000e+00                54s
+
+     667 PPushes remaining with PInf 3.6982070e-05                54s
+       0 PPushes remaining with PInf 0.0000000e+00                54s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.2509091e-14     54s
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+     731    9.0067221e+01   0.000000e+00   0.000000e+00     54s
+Concurrent spin time: 0.01s
+
+Solved with barrier
+     731    9.0067221e+01   0.000000e+00   0.000000e+00     54s
+
+Use crossover to convert LP symmetric solution to basic solution...
+
+Root crossover log...
+
+    2737 DPushes remaining with DInf 0.0000000e+00                55s
+     928 DPushes remaining with DInf 0.0000000e+00                55s
+       0 DPushes remaining with DInf 0.0000000e+00                58s
+
+   13346 PPushes remaining with PInf 0.0000000e+00                58s
+       0 PPushes remaining with PInf 0.0000000e+00                58s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 2.1321595e-14     58s
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   15681    9.0067221e+01   0.000000e+00   0.000000e+00     58s
+   15681    9.0067221e+01   0.000000e+00   0.000000e+00     59s
+
+Root relaxation: objective 9.006722e+01, 15681 iterations, 41.80 seconds (16.18 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   90.06722    0 9939          -   90.06722      -     -  106s
+
+Explored 1 nodes (22690 simplex iterations) in 106.44 seconds (75.37 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 0
+
+Solve interrupted
+Best objective -, best bound 9.100000000000e+01, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.3 (linux64, gurobi_cl) logging started Tue Oct 24 19:10:52 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-10-23
+Using license file /opt/gurobi/gurobi.lic
+
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (linux64)
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file output.lp
+Reading time = 0.94 seconds
+: 6164 rows, 84846 columns, 747854 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 6164 rows, 84846 columns and 747854 nonzeros
+Model fingerprint: 0xd024072c
+Variable types: 0 continuous, 84846 integer (84846 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+01]
+  Objective range  [1e+00, 8e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+01]
+Presolve added 119 rows and 0 columns
+Presolve removed 0 rows and 4778 columns
+Presolve time: 2.32s
+Presolved: 6283 rows, 80068 columns, 343086 nonzeros
+Variable types: 0 continuous, 80068 integer (78869 binary)
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing first log only...
+
+Concurrent spin time: 0.02s
+
+Solved with primal simplex
+
+Use crossover to convert LP symmetric solution to basic solution...
+
+Root relaxation: objective 4.155021e+01, 6720 iterations, 0.71 seconds (0.48 work units)
+Total elapsed time = 9.93s
+Total elapsed time = 10.83s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   41.55021    0 2948          -   41.55021      -     -   15s
+     0     0   41.55021    0 2948          -   41.55021      -     -   16s
+     0     0   41.55021    0 2948          -   41.55021      -     -   16s
+     0     0   41.55021    0 2948          -   41.55021      -     -   17s
+     0     0          -    0               -   41.55021      -     -   29s
+
+Explored 1 nodes (46986 simplex iterations) in 29.44 seconds (24.87 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 0
+
+Solve interrupted
+Best objective -, best bound 4.200000000000e+01, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 10.0.3 (linux64, gurobi_cl) logging started Tue Oct 24 19:11:33 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-10-23
+Using license file /opt/gurobi/gurobi.lic
+
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (linux64)
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file output.lp
+Reading time = 0.15 seconds
+: 5969 rows, 15036 columns, 116509 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 5969 rows, 15036 columns and 116509 nonzeros
+Model fingerprint: 0xfafe878f
+Variable types: 0 continuous, 15036 integer (15036 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+02]
+Presolve removed 3895 rows and 9020 columns
+Presolve time: 0.44s
+Presolved: 2074 rows, 6016 columns, 23216 nonzeros
+Variable types: 0 continuous, 6016 integer (6016 binary)
+Found heuristic solution: objective 14.0000000
+
+Root relaxation: objective 1.100000e+01, 1730 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   11.00000    0  148   14.00000   11.00000  21.4%     -    0s
+     0     0   11.00000    0  146   14.00000   11.00000  21.4%     -    0s
+H    0     0                      13.0000000   11.00000  15.4%     -    0s
+H    0     0                      12.0000000   11.00000  8.33%     -    0s
+     0     0   11.00000    0  130   12.00000   11.00000  8.33%     -    0s
+     0     0 infeasible    0        12.00000   12.00000  0.00%     -    0s
+
+Explored 1 nodes (5688 simplex iterations) in 0.91 seconds (0.58 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 12 13 14 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.200000000000e+01, best bound 1.200000000000e+01, gap 0.0000%
+
+Wrote result file 'output.sol'
+
+
+Gurobi 10.0.3 (linux64, gurobi_cl) logging started Tue Oct 24 19:12:16 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-10-23
+Using license file /opt/gurobi/gurobi.lic
+
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (linux64)
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file output.lp
+Reading time = 0.03 seconds
+: 203 rows, 413 columns, 1357 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 203 rows, 413 columns and 1357 nonzeros
+Model fingerprint: 0xc86ca7f7
+Variable types: 0 continuous, 413 integer (413 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 7e+00]
+  Objective range  [1e+00, 7e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+02]
+Presolve removed 203 rows and 413 columns
+Presolve time: 0.07s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.12 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+
+Wrote result file 'output.sol'
+
+
+Gurobi 10.0.3 (linux64, gurobi_cl) logging started Tue Oct 24 19:12:21 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-10-23
+Using license file /opt/gurobi/gurobi.lic
+
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (linux64)
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file output.lp
+Reading time = 0.03 seconds
+: 229 rows, 300 columns, 906 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 229 rows, 300 columns and 906 nonzeros
+Model fingerprint: 0xd5e8efe2
+Variable types: 0 continuous, 300 integer (300 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+00]
+  Objective range  [1e+00, 4e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+02]
+Found heuristic solution: objective 4.0000000
+Presolve removed 229 rows and 300 columns
+Presolve time: 0.06s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.12 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 4 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.000000000000e+00, best bound 4.000000000000e+00, gap 0.0000%
+
+Wrote result file 'output.sol'
+
+
+Gurobi 10.0.3 (linux64, gurobi_cl) logging started Tue Oct 24 19:12:26 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-10-23
+Using license file /opt/gurobi/gurobi.lic
+
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (linux64)
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file output.lp
+Reading time = 0.03 seconds
+: 291 rows, 475 columns, 1399 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 291 rows, 475 columns and 1399 nonzeros
+Model fingerprint: 0xa4211388
+Variable types: 0 continuous, 475 integer (475 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+00]
+  Objective range  [1e+00, 5e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+02]
+Found heuristic solution: objective 5.0000000
+Presolve removed 291 rows and 475 columns
+Presolve time: 0.05s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.11 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.000000000000e+00, best bound 5.000000000000e+00, gap 0.0000%
+
+Wrote result file 'output.sol'
+
+
+Gurobi 10.0.3 (linux64, gurobi_cl) logging started Tue Oct 24 19:12:41 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-10-23
+Using license file /opt/gurobi/gurobi.lic
+
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (linux64)
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file output.lp
+Reading time = 0.04 seconds
+: 632 rows, 1956 columns, 7376 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 632 rows, 1956 columns and 7376 nonzeros
+Model fingerprint: 0xb9735c9e
+Variable types: 0 continuous, 1956 integer (1956 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+02]
+Presolve removed 632 rows and 1956 columns
+Presolve time: 0.10s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.14 seconds (0.02 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 12 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.200000000000e+01, best bound 1.200000000000e+01, gap 0.0000%
+
+Wrote result file 'output.sol'
+
+
+Gurobi 10.0.3 (linux64, gurobi_cl) logging started Tue Oct 24 19:12:48 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-10-23
+Using license file /opt/gurobi/gurobi.lic
+
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (linux64)
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file output.lp
+Reading time = 0.03 seconds
+: 1 rows, 2 columns, 2 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 1 rows, 2 columns and 2 nonzeros
+Model fingerprint: 0xb161bd9f
+Variable types: 0 continuous, 2 integer (2 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.0000000
+Presolve removed 1 rows and 2 columns
+Presolve time: 0.04s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.10 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 1 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e+00, best bound 1.000000000000e+00, gap 0.0000%
+
+Wrote result file 'output.sol'
+
+
+Gurobi 10.0.3 (linux64, gurobi_cl) logging started Tue Oct 24 19:12:59 2023
+
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-10-23
+Using license file /opt/gurobi/gurobi.lic
+
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (linux64)
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read LP format model from file output.lp
+Reading time = 0.17 seconds
+: 2746 rows, 25992 columns, 125685 nonzeros
+
+CPU model: Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 2746 rows, 25992 columns and 125685 nonzeros
+Model fingerprint: 0xd9e1528c
+Variable types: 0 continuous, 25992 integer (25992 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+01]
+  Objective range  [1e+00, 4e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+02]
+Presolve removed 1478 rows and 19164 columns
+Presolve time: 1.28s
+Presolved: 1268 rows, 6828 columns, 28729 nonzeros
+Variable types: 0 continuous, 6828 integer (6813 binary)
+
+Root relaxation: objective 3.334783e+01, 1172 iterations, 0.04 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   33.34783    0  573          -   33.34783      -     -    1s
+     0     0   34.00000    0  708          -   34.00000      -     -    1s
+     0     0   34.00000    0  705          -   34.00000      -     -    1s
+     0     0   35.03529    0  730          -   35.03529      -     -    2s
+     0     0   35.10376    0  711          -   35.10376      -     -    2s
+     0     0   35.10376    0  707          -   35.10376      -     -    2s
+     0     0   35.10376    0  845          -   35.10376      -     -    2s
+     0     0   35.10376    0  817          -   35.10376      -     -    2s
+     0     0   35.33333    0  760          -   35.33333      -     -    2s
+     0     0   36.00000    0  699          -   36.00000      -     -    2s
+     0     0   36.00000    0  685          -   36.00000      -     -    2s
+     0     0   36.12500    0  785          -   36.12500      -     -    2s
+     0     0   36.50008    0  744          -   36.50008      -     -    2s
+     0     0   36.50008    0  669          -   36.50008      -     -    2s
+     0     0   36.50008    0  665          -   36.50008      -     -    2s
+     0     0   37.00000    0  738          -   37.00000      -     -    2s
+     0     0   37.00000    0  731          -   37.00000      -     -    2s
+     0     0   37.00000    0  760          -   37.00000      -     -    2s
+     0     0   37.00000    0  327          -   37.00000      -     -    2s
+     0     2   37.00000    0  323          -   37.00000      -     -    3s
+*  637   160             274      38.0000000   37.00000  2.63%   6.1    4s
+
+Cutting planes:
+  Gomory: 4
+  Cover: 65
+  Implied bound: 3
+  Clique: 81
+  MIR: 59
+  StrongCG: 30
+  GUB cover: 413
+  Zero half: 32
+  RLT: 31
+  Relax-and-lift: 4
+
+Explored 648 nodes (17046 simplex iterations) in 4.39 seconds (2.72 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 38 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.800000000000e+01, best bound 3.800000000000e+01, gap 0.0000%
+
+Wrote result file 'output.sol'
+

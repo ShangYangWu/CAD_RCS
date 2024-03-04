@@ -1,0 +1,41 @@
+.model test
+.inputs a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13 a14 a15 a16
+.outputs e1 e2
+.names a1 a2 a3 b1  
+111 1
+.names a4 a5 a6 b2
+111 1
+.names a7 a8 a9 b3 
+111 1
+.names a10 a11 a12 b4
+111 1
+.names a13 a14 b5
+11 1
+.names a15 b5 c4
+1- 1
+-1 1
+.names a16 b5 c5
+1- 1
+-1 1
+.names a11 b5 c2
+1- 1
+-1 1
+.names a12 b5 c3
+1- 1
+-1 1
+.names b1 b2 b3 c1
+111 1
+.names b4 c1 d1
+11 1
+.names c2 c3 d2
+1- 1
+-1 1
+.names c4 c5 d3
+1- 1
+-1 1
+.names d1 e1
+0 1
+.names d2 d3 e2
+1- 1
+-1 1
+.end

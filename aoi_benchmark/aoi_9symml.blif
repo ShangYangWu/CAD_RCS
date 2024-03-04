@@ -1,0 +1,398 @@
+.model lif/9symml
+.inputs a b c d e f g h i
+.outputs j
+.names a y401
+0 1
+.names h z401
+0 1
+.names i z401 g a402
+111 1
+.names g b402
+0 1
+.names b402 b d c402
+111 1
+.names a402 c402 d402
+1- 1
+-1 1
+.names e e402
+0 1
+.names d402 e402 c f402
+111 1
+.names e402 i g402
+11 1
+.names b402 e h402
+11 1
+.names g402 h402 i402
+1- 1
+-1 1
+.names f j402
+0 1
+.names i402 j402 c k402
+111 1
+.names i l402
+0 1
+.names c m402
+0 1
+.names e m402 d n402
+111 1
+.names b o402
+0 1
+.names o402 g p402
+11 1
+.names e402 c q402
+11 1
+.names b402 d r402
+11 1
+.names p402 q402 r402 s402
+1-- 1
+-1- 1
+--1 1
+.names s402 f t402
+11 1
+.names d u402
+0 1
+.names g u402 c v402
+111 1
+.names n402 t402 v402 w402
+1-- 1
+-1- 1
+--1 1
+.names l402 w402 x402
+11 1
+.names o402 m402 g i y402
+1111 1
+.names k402 x402 y402 z402
+1-- 1
+-1- 1
+--1 1
+.names z402 h a403
+11 1
+.names l402 c b403
+11 1
+.names m402 e c403
+11 1
+.names b403 c403 d403
+1- 1
+-1 1
+.names f d z401 d403 e403
+1111 1
+.names f402 a403 e403 f403
+1-- 1
+-1- 1
+--1 1
+.names y401 f403 g403
+11 1
+.names e402 d h403
+11 1
+.names u402 e i403
+11 1
+.names h403 i403 j403
+1- 1
+-1 1
+.names z401 g k403
+11 1
+.names b402 h l403
+11 1
+.names k403 l403 m403
+1- 1
+-1 1
+.names j403 j402 m403 n403
+111 1
+.names u402 a o403
+11 1
+.names y401 d p403
+11 1
+.names o403 p403 q403
+1- 1
+-1 1
+.names q403 m402 b402 r403
+111 1
+.names m403 y401 o402 s403
+111 1
+.names u402 c e402 z401 t403
+1111 1
+.names r403 s403 t403 u403
+1-- 1
+-1- 1
+--1 1
+.names u403 f v403
+11 1
+.names j402 e w403
+11 1
+.names e402 d x403
+11 1
+.names w403 x403 y403
+1- 1
+-1 1
+.names y403 c z403
+11 1
+.names u402 c a404
+11 1
+.names m402 d b404
+11 1
+.names a404 b404 c404
+1- 1
+-1 1
+.names c404 b d404
+11 1
+.names f y401 e e404
+111 1
+.names z403 d404 e404 f404
+1-- 1
+-1- 1
+--1 1
+.names f404 b402 z401 g404
+111 1
+.names n403 v403 g404 h404
+1-- 1
+-1- 1
+--1 1
+.names h404 i i404
+11 1
+.names z401 i j404
+11 1
+.names b402 h k404
+11 1
+.names j404 k404 l404
+1- 1
+-1 1
+.names l404 o402 a m404
+111 1
+.names m403 l402 b n404
+111 1
+.names b402 f o404
+11 1
+.names j402 b p404
+11 1
+.names z401 g q404
+11 1
+.names o404 p404 q404 r404
+1-- 1
+-1- 1
+--1 1
+.names r404 y401 e s404
+111 1
+.names m404 n404 s404 t404
+1-- 1
+-1- 1
+--1 1
+.names t404 c u404
+11 1
+.names e402 c v404
+11 1
+.names m402 b w404
+11 1
+.names v404 w404 x404
+1- 1
+-1 1
+.names x404 l402 f y404
+111 1
+.names y401 h z404
+11 1
+.names e402 a a405
+11 1
+.names z404 a405 b405
+1- 1
+-1 1
+.names b405 o402 c c405
+111 1
+.names m402 b z401 e d405
+1111 1
+.names y404 c405 d405 e405
+1-- 1
+-1- 1
+--1 1
+.names e405 g f405
+11 1
+.names b402 e402 b g405
+111 1
+.names g o402 m402 h405
+111 1
+.names g405 h405 i405
+1- 1
+-1 1
+.names h i405 a j405
+111 1
+.names u404 f405 j405 k405
+1-- 1
+-1- 1
+--1 1
+.names u402 k405 l405
+11 1
+.names e402 c q403 f m405
+1111 1
+.names m403 j403 n405
+1- 1
+-1 1
+.names n405 m402 i o405
+111 1
+.names m403 y403 p405
+11 1
+.names f d b402 z401 q405
+1111 1
+.names o405 p405 q405 r405
+1-- 1
+-1- 1
+--1 1
+.names r405 a s405
+11 1
+.names y401 i t405
+11 1
+.names m402 a u405
+11 1
+.names l402 c v405
+11 1
+.names t405 u405 v405 w405
+1-- 1
+-1- 1
+--1 1
+.names e d j402 w405 x405
+1111 1
+.names m405 s405 x405 y405
+1-- 1
+-1- 1
+--1 1
+.names o402 y405 z405
+11 1
+.names b405 u402 i a406
+111 1
+.names l404 e402 f b406
+111 1
+.names e402 g c406
+11 1
+.names j402 d d406
+11 1
+.names b402 e e406
+11 1
+.names c406 d406 e406 f406
+1-- 1
+-1- 1
+--1 1
+.names f406 l402 h g406
+111 1
+.names a406 b406 g406 h406
+1-- 1
+-1- 1
+--1 1
+.names m402 h406 i406
+11 1
+.names z401 g j406
+11 1
+.names b402 e k406
+11 1
+.names j406 k406 l406
+1- 1
+-1 1
+.names l406 m402 i m406
+111 1
+.names z401 c n406
+11 1
+.names m402 g o406
+11 1
+.names n406 o406 p406
+1- 1
+-1 1
+.names p406 y401 d q406
+111 1
+.names u402 a e402 g r406
+1111 1
+.names m406 q406 r406 s406
+1-- 1
+-1- 1
+--1 1
+.names j402 s406 t406
+11 1
+.names y401 e402 c404 f u406
+1111 1
+.names i406 t406 u406 v406
+1-- 1
+-1- 1
+--1 1
+.names v406 b w406
+11 1
+.names o402 h x406
+11 1
+.names j402 c y406
+11 1
+.names z401 f z406
+11 1
+.names x406 y406 z406 a407
+1-- 1
+-1- 1
+--1 1
+.names e402 d a407 g b407
+1111 1
+.names z401 b a c407
+111 1
+.names h j402 d d407
+111 1
+.names c407 d407 e407
+1- 1
+-1 1
+.names e407 b402 c f407
+111 1
+.names e402 h g407
+11 1
+.names u402 e h407
+11 1
+.names g407 h407 i407
+1- 1
+-1 1
+.names o402 i407 j407
+11 1
+.names j407 i405 k407
+1- 1
+-1 1
+.names f k407 a l407
+111 1
+.names j402 d m407
+11 1
+.names m402 f n407
+11 1
+.names m407 n407 o407
+1- 1
+-1 1
+.names o407 z401 b p407
+111 1
+.names m403 o402 f q407
+111 1
+.names u402 h r407
+11 1
+.names y401 d s407
+11 1
+.names r407 s407 t407
+1- 1
+-1 1
+.names t407 j402 g u407
+111 1
+.names p407 q407 u407 v407
+1-- 1
+-1- 1
+--1 1
+.names v407 e w407
+11 1
+.names b407 f407 l407 w407 x407
+1--- 1
+-1-- 1
+--1- 1
+---1 1
+.names l402 x407 y407
+11 1
+.names m402 b z407
+11 1
+.names o402 c a408
+11 1
+.names z407 a408 b408
+1- 1
+-1 1
+.names j402 a j403 b408 c408
+1111 1
+.names g403 i404 l405 z405 w406 y407 c408 j
+1------ 1
+-1----- 1
+--1---- 1
+---1--- 1
+----1-- 1
+-----1- 1
+------1 1
+.end

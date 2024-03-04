@@ -1,0 +1,56 @@
+.model CM138
+.inputs a b c d e f
+.outputs g h i j k l m n
+.names d g298
+0 1
+.names f e g298 h298
+1-- 1
+-1- 1
+--1 1
+.names a b c h298 g
+1--- 1
+-1-- 1
+--1- 1
+---1 1
+.names a j298
+0 1
+.names b j298 c h298 h
+1--- 1
+-1-- 1
+--1- 1
+---1 1
+.names b l298
+0 1
+.names a l298 c h298 i
+1--- 1
+-1-- 1
+--1- 1
+---1 1
+.names j298 l298 c h298 j
+1--- 1
+-1-- 1
+--1- 1
+---1 1
+.names c o298
+0 1
+.names a b o298 h298 k
+1--- 1
+-1-- 1
+--1- 1
+---1 1
+.names b j298 o298 h298 l
+1--- 1
+-1-- 1
+--1- 1
+---1 1
+.names a l298 o298 h298 m
+1--- 1
+-1-- 1
+--1- 1
+---1 1
+.names j298 l298 o298 h298 n
+1--- 1
+-1-- 1
+--1- 1
+---1 1
+.end

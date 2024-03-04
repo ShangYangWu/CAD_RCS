@@ -1,0 +1,171 @@
+.model z4ml
+.inputs a b c d e f g
+.outputs h i j k
+.names a d w315
+1- 1
+-1 1
+.names w315 g x315
+11 1
+.names a d y315
+11 1
+.names x315 y315 z315
+1- 1
+-1 1
+.names z315 c a316
+11 1
+.names a d b316
+11 1
+.names w315 g c316
+11 1
+.names b316 c c316 d316
+1-- 1
+-1- 1
+--1 1
+.names d316 f e316
+11 1
+.names a316 e316 f316
+1- 1
+-1 1
+.names f316 b g316
+11 1
+.names d316 f h316
+11 1
+.names z315 c i316
+11 1
+.names h316 b i316 j316
+1-- 1
+-1- 1
+--1 1
+.names j316 e k316
+11 1
+.names g316 k316 h
+1- 1
+-1 1
+.names a m316
+0 1
+.names d n316
+0 1
+.names m316 n316 o316
+1- 1
+-1 1
+.names o316 p316
+0 1
+.names a d q316
+1- 1
+-1 1
+.names q316 g r316
+11 1
+.names p316 r316 s316
+1- 1
+-1 1
+.names s316 c t316
+11 1
+.names q316 g u316
+11 1
+.names u316 c p316 w316
+1-- 1
+-1- 1
+--1 1
+.names w316 f x316
+11 1
+.names t316 x316 y316
+1- 1
+-1 1
+.names e z316
+0 1
+.names z316 b a317
+11 1
+.names b b317
+0 1
+.names b317 e c317
+11 1
+.names a317 c317 d317
+1- 1
+-1 1
+.names d317 e317
+0 1
+.names y316 e317 f317
+11 1
+.names c g317
+0 1
+.names q316 h317
+0 1
+.names g i317
+0 1
+.names i317 o316 j317
+11 1
+.names h317 j317 k317
+1- 1
+-1 1
+.names g317 k317 l317
+11 1
+.names f m317
+0 1
+.names i317 o316 n317
+11 1
+.names n317 h317 g317 p317
+1-- 1
+-1- 1
+--1 1
+.names m317 p317 q317
+11 1
+.names l317 q317 r317
+1- 1
+-1 1
+.names d317 r317 s317
+11 1
+.names f317 s317 i
+1- 1
+-1 1
+.names a d u317
+11 1
+.names a d v317
+1- 1
+-1 1
+.names v317 g w317
+11 1
+.names u317 w317 x317
+1- 1
+-1 1
+.names m317 c y317
+11 1
+.names g317 f z317
+11 1
+.names y317 z317 a318
+1- 1
+-1 1
+.names a318 b318
+0 1
+.names x317 b318 c318
+11 1
+.names a d d318
+11 1
+.names g d318 e318
+1- 1
+-1 1
+.names v317 e318 f318
+11 1
+.names f318 g318
+0 1
+.names a318 g318 h318
+11 1
+.names c318 h318 j
+1- 1
+-1 1
+.names n316 a j318
+11 1
+.names m316 d k318
+11 1
+.names j318 k318 l318
+1- 1
+-1 1
+.names l318 m318
+0 1
+.names g m318 n318
+11 1
+.names i317 l318 o318
+11 1
+.names n318 o318 k
+1- 1
+-1 1
+.end

@@ -1,0 +1,1785 @@
+.model alu4_cl
+.inputs a b c d e f g h i j k l m n
+.outputs o p q r s t u v
+.names i k m672
+1- 1
+-1 1
+.names a n672
+0 1
+.names e n672 o672
+1- 1
+-1 1
+.names k p672
+0 1
+.names l p672 q672
+1- 1
+-1 1
+.names e r672
+0 1
+.names a r672 s672
+1- 1
+-1 1
+.names q672 s672 t672
+1- 1
+-1 1
+.names o672 t672 u672
+11 1
+.names n v672
+0 1
+.names j w672
+0 1
+.names i w672 x672
+1- 1
+-1 1
+.names u672 v672 x672 y672
+1-- 1
+-1- 1
+--1 1
+.names i q672 z672
+1- 1
+-1 1
+.names j z672 a673
+1- 1
+-1 1
+.names i b673
+0 1
+.names b673 w672 c673
+1- 1
+-1 1
+.names i j d673
+1- 1
+-1 1
+.names c673 d673 e673
+11 1
+.names l f673
+0 1
+.names e673 k f673 g673
+1-- 1
+-1- 1
+--1 1
+.names v672 g673 h673
+1- 1
+-1 1
+.names a673 h673 i673
+11 1
+.names r672 n672 l673
+1- 1
+-1 1
+.names i673 l673 m673
+1- 1
+-1 1
+.names j l n673
+11 1
+.names m672 n n673 o673
+1-- 1
+-1- 1
+--1 1
+.names a o673 p673
+1- 1
+-1 1
+.names a e q673
+1- 1
+-1 1
+.names q673 r673
+0 1
+.names k l s673
+1- 1
+-1 1
+.names n s673 t673
+1- 1
+-1 1
+.names v672 p672 u673
+1- 1
+-1 1
+.names t673 u673 v673
+11 1
+.names j b673 w673
+1- 1
+-1 1
+.names v673 w673 x673
+1- 1
+-1 1
+.names r673 x673 y673
+1- 1
+-1 1
+.names q672 z673
+0 1
+.names x672 z673 v672 a674
+1-- 1
+-1- 1
+--1 1
+.names q672 c673 b674
+1- 1
+-1 1
+.names b673 p672 c674
+1- 1
+-1 1
+.names j f673 n c674 d674
+1--- 1
+-1-- 1
+--1- 1
+---1 1
+.names a674 b674 d674 e674
+111 1
+.names e e674 h674
+1- 1
+-1 1
+.names y672 m673 p673 y673 h674 i674
+11111 1
+.names m672 i674 r672 l674
+1-- 1
+-1- 1
+--1 1
+.names i674 n672 n674
+1- 1
+-1 1
+.names c674 n674 o674
+1- 1
+-1 1
+.names i p672 p674
+1- 1
+-1 1
+.names p674 q674
+0 1
+.names l q674 r674
+1- 1
+-1 1
+.names r674 s674
+0 1
+.names s674 l673 t674
+1- 1
+-1 1
+.names q673 z672 u674
+1- 1
+-1 1
+.names i f673 v674
+1- 1
+-1 1
+.names r672 v674 w674
+1- 1
+-1 1
+.names o674 t674 u674 w674 x674
+1111 1
+.names x674 w672 y674
+1- 1
+-1 1
+.names k b673 z674
+1- 1
+-1 1
+.names f673 z674 a675
+1- 1
+-1 1
+.names s672 a675 b675
+1- 1
+-1 1
+.names f673 o672 c675
+1- 1
+-1 1
+.names b673 q672 d675
+1- 1
+-1 1
+.names e d675 e675
+1- 1
+-1 1
+.names m672 g675
+0 1
+.names k l h675
+11 1
+.names g675 h675 i675
+1- 1
+-1 1
+.names i675 j675
+0 1
+.names i674 j675 k675
+1- 1
+-1 1
+.names s673 m675
+0 1
+.names i m675 n675
+11 1
+.names q674 n675 o675
+1- 1
+-1 1
+.names o675 i674 q675
+11 1
+.names q675 r675
+0 1
+.names b675 c675 e675 k675 r675 s675
+11111 1
+.names j s675 t675
+1- 1
+-1 1
+.names d673 u675
+0 1
+.names k u675 v675
+1- 1
+-1 1
+.names v675 w675
+0 1
+.names n672 f673 x675
+1- 1
+-1 1
+.names w675 x675 y675
+1- 1
+-1 1
+.names l674 y674 t675 y675 z675
+1111 1
+.names n z675 a676
+1- 1
+-1 1
+.names o672 s672 b676
+11 1
+.names w673 k b676 c676
+1-- 1
+-1- 1
+--1 1
+.names n672 i674 e676
+11 1
+.names v674 v672 w672 f676
+1-- 1
+-1- 1
+--1 1
+.names e676 f676 g676
+1- 1
+-1 1
+.names c673 n674 h676
+1- 1
+-1 1
+.names u675 i674 k676
+11 1
+.names k676 l676
+0 1
+.names w673 l673 m676
+1- 1
+-1 1
+.names h676 l676 m676 n676
+111 1
+.names v672 q672 o676
+1- 1
+-1 1
+.names n676 o676 p676
+1- 1
+-1 1
+.names g676 p676 q676
+11 1
+.names q676 r676
+0 1
+.names q672 c673 r676 u676
+1-- 1
+-1- 1
+--1 1
+.names i674 w672 w676
+1- 1
+-1 1
+.names n672 w676 x676
+11 1
+.names m672 l x676 y676
+1-- 1
+-1- 1
+--1 1
+.names l c673 k z676
+111 1
+.names w672 g675 b677
+11 1
+.names z676 b677 c677
+1- 1
+-1 1
+.names c677 a d677
+11 1
+.names k c673 e677
+1- 1
+-1 1
+.names f673 e677 f677
+1- 1
+-1 1
+.names w672 z672 g677
+1- 1
+-1 1
+.names f677 g677 h677
+11 1
+.names h677 i677
+0 1
+.names d677 i677 l677
+1- 1
+-1 1
+.names l677 i674 n677
+11 1
+.names n677 o677
+0 1
+.names i a q676 q677
+1-- 1
+-1- 1
+--1 1
+.names k f676 s677
+1- 1
+-1 1
+.names l673 s677 t677
+1- 1
+-1 1
+.names t677 u677
+0 1
+.names d675 j v672 w677
+1-- 1
+-1- 1
+--1 1
+.names w677 x677
+0 1
+.names q676 x677 y677
+11 1
+.names u677 y677 z677
+1- 1
+-1 1
+.names i674 z677 a678
+1- 1
+-1 1
+.names z677 i674 c678
+11 1
+.names c678 d678
+0 1
+.names a678 d678 e678
+11 1
+.names e678 b673 f678
+1- 1
+-1 1
+.names q677 f678 g678
+11 1
+.names g678 p672 h678
+1- 1
+-1 1
+.names r672 z674 i678
+1- 1
+-1 1
+.names q676 b673 a k678
+111 1
+.names k678 l678
+0 1
+.names h678 i678 l678 m678
+111 1
+.names j l n678
+1- 1
+-1 1
+.names m678 n678 o678
+1- 1
+-1 1
+.names p672 c673 p678
+1- 1
+-1 1
+.names i674 w675 s678
+1- 1
+-1 1
+.names p678 s678 t678
+11 1
+.names a t678 u678
+1- 1
+-1 1
+.names q676 z677 w678
+1- 1
+-1 1
+.names z677 q676 y678
+11 1
+.names y678 z678
+0 1
+.names w678 z678 a679
+11 1
+.names m672 w672 b679
+1- 1
+-1 1
+.names a679 b679 c679
+1- 1
+-1 1
+.names u678 c679 d679
+11 1
+.names d679 f673 e679
+1- 1
+-1 1
+.names c676 u676 y676 o677 o678 e679 f679
+111111 1
+.names f679 v672 g679
+1- 1
+-1 1
+.names g679 h679
+0 1
+.names m h679 i679
+1- 1
+-1 1
+.names m j679
+0 1
+.names j679 g679 k679
+1- 1
+-1 1
+.names i679 k679 l679
+11 1
+.names l679 v672 m679
+1- 1
+-1 1
+.names c673 v672 s673 n679
+1-- 1
+-1- 1
+--1 1
+.names j p672 o679
+1- 1
+-1 1
+.names v674 n o679 p679
+1-- 1
+-1- 1
+--1 1
+.names n679 p679 q679
+11 1
+.names a676 m679 q679 t679
+111 1
+.names t679 o
+0 1
+.names b v679
+0 1
+.names f w679
+0 1
+.names v679 w679 x679
+1- 1
+-1 1
+.names q672 x679 y679
+1- 1
+-1 1
+.names b f z679
+1- 1
+-1 1
+.names w672 z679 a680
+1- 1
+-1 1
+.names y679 a680 b680
+11 1
+.names b680 s672 c680
+1- 1
+-1 1
+.names x675 o679 d680
+1- 1
+-1 1
+.names f v679 e680
+1- 1
+-1 1
+.names b w679 f680
+1- 1
+-1 1
+.names q672 f680 g680
+1- 1
+-1 1
+.names e680 g680 h680
+11 1
+.names s672 i680
+0 1
+.names h680 i680 w672 j680
+1-- 1
+-1- 1
+--1 1
+.names c680 d680 j680 k680
+111 1
+.names k680 i v672 l680
+1-- 1
+-1- 1
+--1 1
+.names b o673 m680
+1- 1
+-1 1
+.names j q672 n680
+1- 1
+-1 1
+.names v672 n680 o680
+1- 1
+-1 1
+.names o680 i673 q680
+11 1
+.names q680 x679 t680
+1- 1
+-1 1
+.names z679 u680
+0 1
+.names u680 x673 v680
+1- 1
+-1 1
+.names f e674 x680
+1- 1
+-1 1
+.names l680 m680 t680 v680 x680 y680
+11111 1
+.names y680 z680
+0 1
+.names y680 m672 w679 b681
+1-- 1
+-1- 1
+--1 1
+.names w675 f673 v679 d681
+1-- 1
+-1- 1
+--1 1
+.names y680 c674 v679 f681
+1-- 1
+-1- 1
+--1 1
+.names s674 x679 h681
+1- 1
+-1 1
+.names z672 z679 i681
+1- 1
+-1 1
+.names v674 w679 j681
+1- 1
+-1 1
+.names f681 h681 i681 j681 k681
+1111 1
+.names k681 w672 l681
+1- 1
+-1 1
+.names a675 f680 m681
+1- 1
+-1 1
+.names f673 e680 n681
+1- 1
+-1 1
+.names f d675 o681
+1- 1
+-1 1
+.names j675 y680 r681
+1- 1
+-1 1
+.names o675 y680 t681
+11 1
+.names t681 u681
+0 1
+.names m681 n681 o681 r681 u681 v681
+11111 1
+.names j v681 w681
+1- 1
+-1 1
+.names b681 d681 l681 w681 x681
+1111 1
+.names n x681 y681
+1- 1
+-1 1
+.names c673 k a682
+11 1
+.names u675 a682 b682
+1- 1
+-1 1
+.names b682 l c682
+11 1
+.names c682 d682
+0 1
+.names n674 y680 h682
+11 1
+.names y680 n674 j682
+1- 1
+-1 1
+.names j682 k682
+0 1
+.names h682 k682 l682
+1- 1
+-1 1
+.names d682 b l682 m682
+1-- 1
+-1- 1
+--1 1
+.names f673 e677 p682
+1- 1
+-1 1
+.names l x672 q682
+1- 1
+-1 1
+.names p682 q682 r682
+11 1
+.names i674 r682 u682
+1- 1
+-1 1
+.names l b679 v682
+1- 1
+-1 1
+.names u682 v682 w682
+11 1
+.names y680 w682 x682
+1- 1
+-1 1
+.names j w679 z682
+1- 1
+-1 1
+.names y680 w672 b683
+1- 1
+-1 1
+.names z682 b683 c683
+11 1
+.names c683 b673 v679 d683
+1-- 1
+-1- 1
+--1 1
+.names u675 y680 g683
+11 1
+.names g683 h683
+0 1
+.names d683 h683 i683
+11 1
+.names i683 o676 j683
+1- 1
+-1 1
+.names v679 y680 l683
+11 1
+.names l683 f676 m683
+1- 1
+-1 1
+.names j683 m683 n683
+11 1
+.names q676 n683 q683
+11 1
+.names q683 r683
+0 1
+.names q676 n683 u683
+1- 1
+-1 1
+.names r683 u683 v683
+11 1
+.names l v683 w683
+1- 1
+-1 1
+.names a b x683
+1- 1
+-1 1
+.names f673 x683 y683
+1- 1
+-1 1
+.names w683 y683 z683
+11 1
+.names z683 p678 a684
+1- 1
+-1 1
+.names f673 z679 b684
+1- 1
+-1 1
+.names x679 b684 c684
+11 1
+.names c684 l673 d684
+1- 1
+-1 1
+.names l673 e684
+0 1
+.names e684 f680 f684
+1- 1
+-1 1
+.names d684 f684 g684
+11 1
+.names j z674 h684
+1- 1
+-1 1
+.names g684 h684 i684
+1- 1
+-1 1
+.names z677 k684
+0 1
+.names q676 k684 l684
+1- 1
+-1 1
+.names s677 x679 n684
+1- 1
+-1 1
+.names n684 o684
+0 1
+.names x677 n683 r684
+11 1
+.names o684 r684 s684
+1- 1
+-1 1
+.names n683 s684 t684
+1- 1
+-1 1
+.names t684 u684
+0 1
+.names s684 n683 w684
+11 1
+.names u684 w684 x684
+1- 1
+-1 1
+.names l684 x684 y684
+1- 1
+-1 1
+.names l684 x684 z684
+11 1
+.names z684 a685
+0 1
+.names y684 a685 b685
+11 1
+.names v674 k w672 c685
+1-- 1
+-1- 1
+--1 1
+.names b685 c685 d685
+1- 1
+-1 1
+.names i674 k684 h685
+1- 1
+-1 1
+.names h685 i685
+0 1
+.names y680 i685 j685
+1- 1
+-1 1
+.names z680 h685 m685
+1- 1
+-1 1
+.names j685 m685 n685
+11 1
+.names s684 n685 q685
+11 1
+.names q685 r685
+0 1
+.names n685 s684 t685
+1- 1
+-1 1
+.names r685 t685 u685
+11 1
+.names u685 c674 v685
+1- 1
+-1 1
+.names z674 w679 w685
+1- 1
+-1 1
+.names q676 n672 z685
+1- 1
+-1 1
+.names z685 a686
+0 1
+.names n683 a686 b686
+1- 1
+-1 1
+.names b686 c686
+0 1
+.names n683 a686 f686
+11 1
+.names c686 f686 g686
+1- 1
+-1 1
+.names g686 v679 q674 i686
+111 1
+.names i686 j686
+0 1
+.names v685 w685 j686 k686
+111 1
+.names k686 n678 l686
+1- 1
+-1 1
+.names n678 i g686 m686
+1-- 1
+-1- 1
+--1 1
+.names h684 f e684 o686
+1-- 1
+-1- 1
+--1 1
+.names p672 u675 r686
+11 1
+.names c682 r686 s686
+1- 1
+-1 1
+.names l682 s686 t686
+11 1
+.names t686 u686
+0 1
+.names c673 m675 w686
+11 1
+.names w686 x686
+0 1
+.names x675 p678 y686
+1- 1
+-1 1
+.names m686 o686 u686 x686 y686 z686
+11111 1
+.names z686 v679 a687
+1- 1
+-1 1
+.names i674 y680 e687
+11 1
+.names e687 f687
+0 1
+.names h677 f687 g687
+1- 1
+-1 1
+.names m682 x682 a684 i684 d685 l686 a687 g687 h687
+11111111 1
+.names h687 v672 i687
+1- 1
+-1 1
+.names i687 j687
+0 1
+.names m g679 k687
+1- 1
+-1 1
+.names j687 k687 l687
+1- 1
+-1 1
+.names k687 m687
+0 1
+.names m687 i687 n687
+1- 1
+-1 1
+.names l687 n687 o687
+11 1
+.names o687 v672 p687
+1- 1
+-1 1
+.names y681 p687 q679 r687
+111 1
+.names r687 p
+0 1
+.names o679 f673 v679 t687
+1-- 1
+-1- 1
+--1 1
+.names f680 u687
+0 1
+.names e680 i680 w687
+11 1
+.names u687 w687 x687
+1- 1
+-1 1
+.names z673 c g z687
+111 1
+.names c a688
+0 1
+.names g b688
+0 1
+.names j a688 b688 c688
+111 1
+.names z687 c688 d688
+1- 1
+-1 1
+.names x687 d688 e688
+11 1
+.names e688 f688
+0 1
+.names q672 c b688 g688
+1-- 1
+-1- 1
+--1 1
+.names g a688 h688
+1- 1
+-1 1
+.names g688 h688 i688
+11 1
+.names i688 w672 x687 j688
+1-- 1
+-1- 1
+--1 1
+.names t687 f688 j688 k688
+111 1
+.names k688 i v672 l688
+1-- 1
+-1- 1
+--1 1
+.names c o673 m688
+1- 1
+-1 1
+.names a688 b688 o688
+1- 1
+-1 1
+.names q680 o688 p688
+1- 1
+-1 1
+.names c g q688
+1- 1
+-1 1
+.names q688 r688
+0 1
+.names r688 x673 s688
+1- 1
+-1 1
+.names g e674 u688
+1- 1
+-1 1
+.names l688 m688 p688 s688 u688 v688
+11111 1
+.names v688 w688
+0 1
+.names v688 m672 b688 y688
+1-- 1
+-1- 1
+--1 1
+.names v688 c674 a688 a689
+1-- 1
+-1- 1
+--1 1
+.names s674 o688 c689
+1- 1
+-1 1
+.names z672 q688 d689
+1- 1
+-1 1
+.names v674 b688 e689
+1- 1
+-1 1
+.names a689 c689 d689 e689 f689
+1111 1
+.names f689 w672 g689
+1- 1
+-1 1
+.names a675 c b688 h689
+1-- 1
+-1- 1
+--1 1
+.names f673 a688 i689
+1- 1
+-1 1
+.names d675 i689 j689
+11 1
+.names g j689 k689
+1- 1
+-1 1
+.names o675 v688 m689
+11 1
+.names m689 n689
+0 1
+.names j675 v688 q689
+1- 1
+-1 1
+.names h689 k689 n689 q689 r689
+1111 1
+.names j r689 s689
+1- 1
+-1 1
+.names w675 i689 u689
+1- 1
+-1 1
+.names y688 g689 s689 u689 v689
+1111 1
+.names n v689 w689
+1- 1
+-1 1
+.names n674 y680 z689
+11 1
+.names z689 v679 a690
+1- 1
+-1 1
+.names y680 n674 c690
+1- 1
+-1 1
+.names a690 c690 d690
+11 1
+.names v688 d690 g690
+11 1
+.names v688 d690 j690
+1- 1
+-1 1
+.names j690 k690
+0 1
+.names g690 k690 l690
+1- 1
+-1 1
+.names l690 c d682 o690
+1-- 1
+-1- 1
+--1 1
+.names s686 l690 q690
+11 1
+.names w686 q690 r690
+1- 1
+-1 1
+.names r690 c s690
+11 1
+.names s690 t690
+0 1
+.names r682 e687 x690
+1- 1
+-1 1
+.names l b679 y690
+1- 1
+-1 1
+.names x690 y690 z690
+11 1
+.names v688 z690 a691
+1- 1
+-1 1
+.names u680 l673 c691
+1- 1
+-1 1
+.names x679 c691 d691
+11 1
+.names f673 q688 g691
+1- 1
+-1 1
+.names o688 g691 h691
+11 1
+.names d691 h691 i691
+1- 1
+-1 1
+.names b688 c j691
+11 1
+.names a688 g k691
+11 1
+.names j691 k691 l691
+1- 1
+-1 1
+.names l691 d691 n691
+11 1
+.names n691 o691
+0 1
+.names i691 o691 p691
+11 1
+.names p691 h684 q691
+1- 1
+-1 1
+.names s684 s691
+0 1
+.names n683 s691 t691
+11 1
+.names t691 l684 u691
+1- 1
+-1 1
+.names n683 s691 x691
+1- 1
+-1 1
+.names u691 x691 y691
+11 1
+.names j b688 b692
+1- 1
+-1 1
+.names v688 w672 d692
+1- 1
+-1 1
+.names b692 d692 e692
+11 1
+.names e692 b673 a688 f692
+1-- 1
+-1- 1
+--1 1
+.names u675 v688 i692
+11 1
+.names i692 j692
+0 1
+.names f692 j692 k692
+11 1
+.names k692 o676 l692
+1- 1
+-1 1
+.names a688 v688 n692
+11 1
+.names n692 f676 o692
+1- 1
+-1 1
+.names l692 o692 p692
+11 1
+.names p692 q692
+0 1
+.names s677 o688 s692
+1- 1
+-1 1
+.names s692 t692
+0 1
+.names x677 p692 w692
+11 1
+.names t692 w692 x692
+1- 1
+-1 1
+.names p692 x692 y692
+1- 1
+-1 1
+.names y692 z692
+0 1
+.names x692 p692 b693
+11 1
+.names z692 b693 c693
+1- 1
+-1 1
+.names y691 c693 d693
+1- 1
+-1 1
+.names c693 y691 f693
+11 1
+.names f693 g693
+0 1
+.names d693 g693 h693
+11 1
+.names h693 c685 i693
+1- 1
+-1 1
+.names x683 j693
+0 1
+.names j693 i689 k693
+1- 1
+-1 1
+.names c x683 l693
+1- 1
+-1 1
+.names f673 l693 m693
+1- 1
+-1 1
+.names q683 p692 p693
+11 1
+.names p693 q693
+0 1
+.names q683 p692 t693
+1- 1
+-1 1
+.names q693 t693 u693
+11 1
+.names l u693 v693
+1- 1
+-1 1
+.names k693 m693 v693 w693
+111 1
+.names w693 p678 x693
+1- 1
+-1 1
+.names z685 n683 z693
+11 1
+.names z693 v679 a694
+1- 1
+-1 1
+.names n683 z685 c694
+1- 1
+-1 1
+.names a694 c694 d694
+11 1
+.names d694 e694
+0 1
+.names d694 q692 i694
+1- 1
+-1 1
+.names p692 e694 m694
+1- 1
+-1 1
+.names i694 m694 n694
+11 1
+.names n694 b673 c q694
+111 1
+.names q694 r694
+0 1
+.names p674 c n694 t694
+1-- 1
+-1- 1
+--1 1
+.names y680 s691 w694
+11 1
+.names w694 h685 x694
+1- 1
+-1 1
+.names y680 s691 a695
+1- 1
+-1 1
+.names x694 a695 b695
+11 1
+.names w688 x692 g695
+1- 1
+-1 1
+.names x692 i695
+0 1
+.names v688 i695 j695
+1- 1
+-1 1
+.names g695 j695 k695
+11 1
+.names b695 k695 n695
+11 1
+.names n695 o695
+0 1
+.names b695 k695 r695
+1- 1
+-1 1
+.names o695 r695 s695
+11 1
+.names s695 c674 t695
+1- 1
+-1 1
+.names z674 b688 u695
+1- 1
+-1 1
+.names r694 t694 t695 u695 v695
+1111 1
+.names v695 n678 w695
+1- 1
+-1 1
+.names e687 v688 a696
+11 1
+.names a696 b696
+0 1
+.names h677 b696 c696
+1- 1
+-1 1
+.names o690 t690 a691 q691 i693 x693 w695 c696 d696
+11111111 1
+.names d696 v672 e696
+1- 1
+-1 1
+.names e696 f696
+0 1
+.names i687 k687 g696
+1- 1
+-1 1
+.names f696 g696 h696
+1- 1
+-1 1
+.names g696 i696
+0 1
+.names i696 e696 j696
+1- 1
+-1 1
+.names h696 j696 k696
+11 1
+.names k696 v672 l696
+1- 1
+-1 1
+.names w689 l696 q679 n696
+111 1
+.names n696 q
+0 1
+.names j l p696
+11 1
+.names d k n p696 q696
+1--- 1
+-1-- 1
+--1- 1
+---1 1
+.names d r696
+0 1
+.names h s696
+0 1
+.names r696 s696 t696
+1- 1
+-1 1
+.names q672 t696 u696
+1- 1
+-1 1
+.names d h v696
+1- 1
+-1 1
+.names w672 v696 w696
+1- 1
+-1 1
+.names u696 w696 x696
+11 1
+.names a688 x687 y696
+11 1
+.names g y696 z696
+1- 1
+-1 1
+.names a688 x687 a697
+1- 1
+-1 1
+.names z696 a697 b697
+11 1
+.names b697 c697
+0 1
+.names x696 c697 f697
+1- 1
+-1 1
+.names o679 i689 g697
+1- 1
+-1 1
+.names q672 d s696 i697
+1-- 1
+-1- 1
+--1 1
+.names h r696 j697
+1- 1
+-1 1
+.names i697 j697 k697
+11 1
+.names b697 k697 w672 l697
+1-- 1
+-1- 1
+--1 1
+.names f697 g697 l697 m697
+111 1
+.names m697 v672 n697
+1- 1
+-1 1
+.names q696 n697 o697
+11 1
+.names i o697 p697
+1- 1
+-1 1
+.names v672 i q697
+11 1
+.names q697 n680 r697
+1- 1
+-1 1
+.names v672 g673 s697
+1- 1
+-1 1
+.names r697 s697 t697
+11 1
+.names t697 t696 u697
+1- 1
+-1 1
+.names v696 v697
+0 1
+.names v697 x673 w697
+1- 1
+-1 1
+.names h e674 y697
+1- 1
+-1 1
+.names p697 u697 w697 y697 z697
+1111 1
+.names z697 a698
+0 1
+.names z697 m672 s696 c698
+1-- 1
+-1- 1
+--1 1
+.names z672 v696 d698
+1- 1
+-1 1
+.names z697 r696 f698
+1- 1
+-1 1
+.names c674 f698 g698
+1- 1
+-1 1
+.names v674 s696 h698
+1- 1
+-1 1
+.names s674 t696 j698
+1- 1
+-1 1
+.names d698 g698 h698 j698 k698
+1111 1
+.names k698 w672 l698
+1- 1
+-1 1
+.names a675 d s696 m698
+1-- 1
+-1- 1
+--1 1
+.names f673 r696 n698
+1- 1
+-1 1
+.names d675 n698 o698
+11 1
+.names h o698 p698
+1- 1
+-1 1
+.names o675 z697 r698
+11 1
+.names r698 s698
+0 1
+.names j675 z697 v698
+1- 1
+-1 1
+.names m698 p698 s698 v698 w698
+1111 1
+.names j w698 x698
+1- 1
+-1 1
+.names w675 n698 z698
+1- 1
+-1 1
+.names c698 l698 x698 z698 a699
+1111 1
+.names n a699 b699
+1- 1
+-1 1
+.names v688 d690 f699
+11 1
+.names f699 a688 g699
+1- 1
+-1 1
+.names v688 d690 j699
+1- 1
+-1 1
+.names g699 j699 k699
+11 1
+.names k699 l699
+0 1
+.names k699 a698 p699
+1- 1
+-1 1
+.names z697 l699 t699
+1- 1
+-1 1
+.names p699 t699 u699
+11 1
+.names s686 u699 x699
+11 1
+.names w686 x699 y699
+1- 1
+-1 1
+.names y699 d z699
+11 1
+.names z699 a700
+0 1
+.names a696 r682 z697 e700
+1-- 1
+-1- 1
+--1 1
+.names p692 i695 i700
+11 1
+.names y691 i700 j700
+1- 1
+-1 1
+.names p692 i695 m700
+1- 1
+-1 1
+.names j700 m700 n700
+11 1
+.names r696 z697 r700
+11 1
+.names r700 f676 s700
+1- 1
+-1 1
+.names c673 f698 t700
+1- 1
+-1 1
+.names u675 z697 w700
+11 1
+.names w700 x700
+0 1
+.names w673 t696 y700
+1- 1
+-1 1
+.names t700 x700 y700 z700
+111 1
+.names z700 o676 a701
+1- 1
+-1 1
+.names s700 a701 b701
+11 1
+.names b701 c701
+0 1
+.names s677 t696 e701
+1- 1
+-1 1
+.names e701 f701
+0 1
+.names x677 b701 i701
+11 1
+.names f701 i701 j701
+1- 1
+-1 1
+.names b701 j701 k701
+1- 1
+-1 1
+.names k701 l701
+0 1
+.names j701 b701 n701
+11 1
+.names l701 n701 o701
+1- 1
+-1 1
+.names n700 o701 p701
+1- 1
+-1 1
+.names o701 n700 r701
+11 1
+.names r701 s701
+0 1
+.names p701 s701 t701
+11 1
+.names t701 f673 b679 u701
+1-- 1
+-1- 1
+--1 1
+.names v688 i695 y701
+11 1
+.names b695 y701 z701
+1- 1
+-1 1
+.names v688 i695 c702
+1- 1
+-1 1
+.names z701 c702 d702
+11 1
+.names j701 z697 h702
+11 1
+.names z697 j701 j702
+1- 1
+-1 1
+.names j702 k702
+0 1
+.names h702 k702 l702
+1- 1
+-1 1
+.names d702 l702 m702
+1- 1
+-1 1
+.names l702 d702 o702
+11 1
+.names o702 p702
+0 1
+.names m702 p702 q702
+11 1
+.names q702 b673 n680 r702
+1-- 1
+-1- 1
+--1 1
+.names a696 z697 v702
+11 1
+.names v702 w702
+0 1
+.names h677 w702 x702
+1- 1
+-1 1
+.names l693 y702
+0 1
+.names n698 y702 p678 z702
+1-- 1
+-1- 1
+--1 1
+.names p692 d694 d703
+11 1
+.names d703 a688 e703
+1- 1
+-1 1
+.names p692 d694 h703
+1- 1
+-1 1
+.names e703 h703 i703
+11 1
+.names b701 i703 l703
+11 1
+.names b701 i703 o703
+1- 1
+-1 1
+.names o703 p703
+0 1
+.names l703 p703 q703
+1- 1
+-1 1
+.names q703 u675 d s703
+111 1
+.names s703 t703
+0 1
+.names p693 b701 w703
+1- 1
+-1 1
+.names p693 b701 z703
+11 1
+.names z703 a704
+0 1
+.names w703 a704 b704
+11 1
+.names b704 p678 c704
+1- 1
+-1 1
+.names z697 b679 e704
+1- 1
+-1 1
+.names h684 s696 f704
+1- 1
+-1 1
+.names t703 c704 e704 f704 g704
+1111 1
+.names l g704 h704
+1- 1
+-1 1
+.names r688 d691 k704
+1- 1
+-1 1
+.names o688 k704 l704
+11 1
+.names f673 v696 o704
+1- 1
+-1 1
+.names t696 o704 p704
+11 1
+.names l704 p704 q704
+1- 1
+-1 1
+.names s696 d r704
+11 1
+.names r696 h s704
+11 1
+.names r704 s704 t704
+1- 1
+-1 1
+.names t704 l704 v704
+11 1
+.names v704 w704
+0 1
+.names q704 w704 x704
+11 1
+.names x704 h684 y704
+1- 1
+-1 1
+.names l693 f673 p678 z704
+1-- 1
+-1- 1
+--1 1
+.names u699 d682 d705
+1- 1
+-1 1
+.names n680 i q703 e705
+1-- 1
+-1- 1
+--1 1
+.names z704 d705 e705 f705
+111 1
+.names d f705 g705
+1- 1
+-1 1
+.names a700 e700 u701 r702 x702 z702 h704 y704 g705 h705
+111111111 1
+.names h705 v672 i705
+1- 1
+-1 1
+.names i705 j705
+0 1
+.names e696 g696 k705
+1- 1
+-1 1
+.names j705 k705 l705
+1- 1
+-1 1
+.names k705 m705
+0 1
+.names m705 i705 n705
+1- 1
+-1 1
+.names l705 n705 o705
+11 1
+.names o705 v672 p705
+1- 1
+-1 1
+.names b699 p705 q679 r705
+111 1
+.names r705 r
+0 1
+.names t696 t
+0 1
+.names t v697 s
+1- 1
+-1 1
+.names p678 d l693 x705
+1-- 1
+-1- 1
+--1 1
+.names l704 v697 a706
+1- 1
+-1 1
+.names t696 a706 b706
+11 1
+.names b706 h684 c706
+1- 1
+-1 1
+.names j701 f706
+0 1
+.names b701 f706 g706
+11 1
+.names n700 g706 h706
+1- 1
+-1 1
+.names b701 f706 k706
+1- 1
+-1 1
+.names h706 k706 l706
+11 1
+.names l706 b679 m706
+1- 1
+-1 1
+.names c673 k o706
+11 1
+.names u675 o706 p706
+1- 1
+-1 1
+.names p706 q706
+0 1
+.names r696 z697 t706
+11 1
+.names k699 t706 u706
+1- 1
+-1 1
+.names f698 u706 v706
+11 1
+.names q706 v706 w706
+1- 1
+-1 1
+.names x705 c706 m706 w706 x706
+1111 1
+.names x706 f673 y706
+1- 1
+-1 1
+.names c701 c673 q693 b707
+1-- 1
+-1- 1
+--1 1
+.names w702 p672 x672 c707
+1-- 1
+-1- 1
+--1 1
+.names z697 f706 g707
+11 1
+.names d702 g707 h707
+1- 1
+-1 1
+.names z697 f706 k707
+1- 1
+-1 1
+.names h707 k707 l707
+11 1
+.names l707 b673 m707
+1- 1
+-1 1
+.names r696 b701 p707
+11 1
+.names i703 p707 q707
+1- 1
+-1 1
+.names b701 r696 s707
+1- 1
+-1 1
+.names q707 s707 t707
+11 1
+.names i t707 u707
+1- 1
+-1 1
+.names m707 u707 v707
+11 1
+.names v707 o679 w707
+1- 1
+-1 1
+.names b707 c707 e677 w707 x707
+1111 1
+.names l x707 y707
+1- 1
+-1 1
+.names e677 w702 z707
+1- 1
+-1 1
+.names i705 k705 a708
+1- 1
+-1 1
+.names y706 y707 z707 a708 b708
+1111 1
+.names b708 c708
+0 1
+.names c708 n u
+11 1
+.names x679 f708
+0 1
+.names u680 f708 g708
+1- 1
+-1 1
+.names g708 e684 i708
+11 1
+.names r673 f708 l708
+11 1
+.names i708 l708 m708
+1- 1
+-1 1
+.names m708 r688 o708
+11 1
+.names g708 e684 q708
+11 1
+.names r673 f708 t708
+11 1
+.names j693 r672 w679 v708
+111 1
+.names q708 t708 v708 w708
+1-- 1
+-1- 1
+--1 1
+.names o688 x708
+0 1
+.names w708 x708 y708
+11 1
+.names r672 w679 b688 y702 a709
+1111 1
+.names o708 y708 a709 b709
+1-- 1
+-1- 1
+--1 1
+.names s b709 v
+11 1
+.end

@@ -1,0 +1,104 @@
+.model x2
+.inputs a b c d e f g h i j
+.outputs k l m n o p q
+.names j o315
+0 1
+.names h o315 p315
+1- 1
+-1 1
+.names i j q315
+1- 1
+-1 1
+.names i r315
+0 1
+.names r315 o315 s315
+1- 1
+-1 1
+.names h t315
+0 1
+.names o315 i t315 u315
+1-- 1
+-1- 1
+--1 1
+.names h r315 v315
+1- 1
+-1 1
+.names p315 q315 s315 u315 v315 w315
+11111 1
+.names w315 k
+0 1
+.names j t315 y315
+1- 1
+-1 1
+.names p315 y315 v315 s315 z315
+1111 1
+.names z315 l
+0 1
+.names i h j b316
+1-- 1
+-1- 1
+--1 1
+.names b316 m
+0 1
+.names a d316
+0 1
+.names b e316
+0 1
+.names c f316
+0 1
+.names j t315 g316
+1- 1
+-1 1
+.names d316 e316 f316 u315 s315 p315 b316 g316 h316
+11111111 1
+.names h316 n
+0 1
+.names v315 b316 s315 p315 g j316
+11111 1
+.names j316 o
+0 1
+.names d316 e316 t315 c l316
+1111 1
+.names l316 o315 m316
+1- 1
+-1 1
+.names r315 m316 n316
+11 1
+.names g o316
+0 1
+.names i j c d316 e316 p316
+11111 1
+.names e q316
+0 1
+.names o315 q316 d r316
+111 1
+.names p316 r316 s316
+1- 1
+-1 1
+.names s316 h t316
+11 1
+.names t315 f i j u316
+1111 1
+.names n316 o316 t316 u316 p
+1--- 1
+-1-- 1
+--1- 1
+---1 1
+.names b316 u315 g y316
+111 1
+.names y316 z316
+0 1
+.names d e o315 i b317
+1111 1
+.names d316 e316 f316 j c317
+1111 1
+.names b317 c317 d317
+1- 1
+-1 1
+.names d317 h e317
+11 1
+.names z316 u316 e317 q
+1-- 1
+-1- 1
+--1 1
+.end

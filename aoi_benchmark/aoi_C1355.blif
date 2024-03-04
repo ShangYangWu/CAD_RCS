@@ -1,0 +1,1601 @@
+.model C1355.iscas
+.inputs a b c d e f g h i j k l m n o p q r s t u v w x y z a0 b0 c0 d0 e0 f0 \
+g0 h0 i0 j0 k0 l0 m0 n0 o0
+.outputs p0 q0 r0 s0 t0 u0 v0 w0 x0 y0 z0 a1 b1 c1 d1 e1 f1 g1 h1 i1 j1 k1 l1 \
+m1 n1 o1 p1 q1 r1 s1 t1 u1
+.names a w573
+0 1
+.names x x573
+0 1
+.names w y573
+0 1
+.names x573 y573 z573
+1- 1
+-1 1
+.names z573 x a574
+11 1
+.names z573 w b574
+11 1
+.names a574 b574 c574
+1- 1
+-1 1
+.names c574 d574
+0 1
+.names v e574
+0 1
+.names u f574
+0 1
+.names e574 f574 g574
+1- 1
+-1 1
+.names g574 v h574
+11 1
+.names g574 u i574
+11 1
+.names h574 i574 j574
+1- 1
+-1 1
+.names c574 j574 k574
+11 1
+.names d574 k574 n574
+1- 1
+-1 1
+.names j574 p574
+0 1
+.names k574 p574 q574
+1- 1
+-1 1
+.names n574 q574 r574
+11 1
+.names t v574
+0 1
+.names s w574
+0 1
+.names v574 w574 x574
+1- 1
+-1 1
+.names x574 t y574
+11 1
+.names x574 s z574
+11 1
+.names y574 z574 a575
+1- 1
+-1 1
+.names a575 b575
+0 1
+.names r c575
+0 1
+.names q d575
+0 1
+.names c575 d575 e575
+1- 1
+-1 1
+.names e575 r f575
+11 1
+.names e575 q g575
+11 1
+.names f575 g575 h575
+1- 1
+-1 1
+.names a575 h575 i575
+11 1
+.names b575 i575 l575
+1- 1
+-1 1
+.names h575 n575
+0 1
+.names i575 n575 o575
+1- 1
+-1 1
+.names l575 o575 p575
+11 1
+.names r574 p575 s575
+1- 1
+-1 1
+.names s575 t575
+0 1
+.names r574 t575 u575
+1- 1
+-1 1
+.names t575 p575 x575
+1- 1
+-1 1
+.names u575 x575 y575
+11 1
+.names g0 o0 b576
+11 1
+.names b576 c576
+0 1
+.names y575 c576 f576
+1- 1
+-1 1
+.names f576 b576 h576
+11 1
+.names f576 i576
+0 1
+.names i576 y575 k576
+1- 1
+-1 1
+.names k576 l576
+0 1
+.names h576 l576 m576
+1- 1
+-1 1
+.names m576 n576
+0 1
+.names m o576
+0 1
+.names i p576
+0 1
+.names o576 p576 q576
+1- 1
+-1 1
+.names q576 m r576
+11 1
+.names q576 i s576
+11 1
+.names r576 s576 t576
+1- 1
+-1 1
+.names t576 u576
+0 1
+.names e v576
+0 1
+.names w573 v576 w576
+1- 1
+-1 1
+.names w576 e x576
+11 1
+.names w576 a y576
+11 1
+.names x576 y576 z576
+1- 1
+-1 1
+.names t576 z576 a577
+11 1
+.names u576 a577 d577
+1- 1
+-1 1
+.names z576 f577
+0 1
+.names a577 f577 g577
+1- 1
+-1 1
+.names d577 g577 h577
+11 1
+.names n576 h577 k577
+1- 1
+-1 1
+.names m576 k577 l577
+11 1
+.names k577 m577
+0 1
+.names m577 h577 o577
+1- 1
+-1 1
+.names o577 p577
+0 1
+.names l577 p577 q577
+1- 1
+-1 1
+.names q577 r577
+0 1
+.names l s577
+0 1
+.names k t577
+0 1
+.names s577 t577 u577
+1- 1
+-1 1
+.names u577 l v577
+11 1
+.names u577 k w577
+11 1
+.names v577 w577 x577
+1- 1
+-1 1
+.names x577 y577
+0 1
+.names j z577
+0 1
+.names p576 z577 a578
+1- 1
+-1 1
+.names a578 j b578
+11 1
+.names a578 i c578
+11 1
+.names b578 c578 d578
+1- 1
+-1 1
+.names x577 d578 e578
+11 1
+.names y577 e578 h578
+1- 1
+-1 1
+.names d578 j578
+0 1
+.names e578 j578 k578
+1- 1
+-1 1
+.names h578 k578 l578
+11 1
+.names d o578
+0 1
+.names c p578
+0 1
+.names o578 p578 q578
+1- 1
+-1 1
+.names q578 d r578
+11 1
+.names q578 c s578
+11 1
+.names r578 s578 t578
+1- 1
+-1 1
+.names t578 u578
+0 1
+.names b v578
+0 1
+.names w573 v578 w578
+1- 1
+-1 1
+.names w578 b x578
+11 1
+.names w578 a y578
+11 1
+.names x578 y578 z578
+1- 1
+-1 1
+.names t578 z578 a579
+11 1
+.names u578 a579 d579
+1- 1
+-1 1
+.names z578 f579
+0 1
+.names a579 f579 g579
+1- 1
+-1 1
+.names d579 g579 h579
+11 1
+.names h579 l578 l579
+1- 1
+-1 1
+.names l579 m579
+0 1
+.names l578 m579 n579
+1- 1
+-1 1
+.names h579 m579 q579
+1- 1
+-1 1
+.names n579 q579 r579
+11 1
+.names o0 m0 u579
+11 1
+.names u579 v579
+0 1
+.names r579 v579 y579
+1- 1
+-1 1
+.names y579 u579 a580
+11 1
+.names y579 b580
+0 1
+.names b580 r579 d580
+1- 1
+-1 1
+.names d580 e580
+0 1
+.names a580 e580 f580
+1- 1
+-1 1
+.names f580 g580
+0 1
+.names e0 h580
+0 1
+.names a0 i580
+0 1
+.names h580 i580 j580
+1- 1
+-1 1
+.names j580 e0 k580
+11 1
+.names j580 a0 l580
+11 1
+.names k580 l580 m580
+1- 1
+-1 1
+.names m580 n580
+0 1
+.names y573 w574 o580
+1- 1
+-1 1
+.names o580 w p580
+11 1
+.names o580 s q580
+11 1
+.names p580 q580 r580
+1- 1
+-1 1
+.names m580 r580 s580
+11 1
+.names n580 s580 v580
+1- 1
+-1 1
+.names r580 x580
+0 1
+.names s580 x580 y580
+1- 1
+-1 1
+.names v580 y580 z580
+11 1
+.names g580 z580 c581
+1- 1
+-1 1
+.names f580 c581 d581
+11 1
+.names c581 e581
+0 1
+.names e581 z580 g581
+1- 1
+-1 1
+.names g581 h581
+0 1
+.names d581 h581 i581
+1- 1
+-1 1
+.names i581 j581
+0 1
+.names p k581
+0 1
+.names o l581
+0 1
+.names k581 l581 m581
+1- 1
+-1 1
+.names m581 p n581
+11 1
+.names m581 o o581
+11 1
+.names n581 o581 p581
+1- 1
+-1 1
+.names p581 q581
+0 1
+.names n r581
+0 1
+.names o576 r581 s581
+1- 1
+-1 1
+.names s581 n t581
+11 1
+.names s581 m u581
+11 1
+.names t581 u581 v581
+1- 1
+-1 1
+.names p581 v581 w581
+11 1
+.names q581 w581 z581
+1- 1
+-1 1
+.names v581 b582
+0 1
+.names w581 b582 c582
+1- 1
+-1 1
+.names z581 c582 d582
+11 1
+.names h g582
+0 1
+.names g h582
+0 1
+.names g582 h582 i582
+1- 1
+-1 1
+.names i582 h j582
+11 1
+.names i582 g k582
+11 1
+.names j582 k582 l582
+1- 1
+-1 1
+.names l582 m582
+0 1
+.names f n582
+0 1
+.names v576 n582 o582
+1- 1
+-1 1
+.names o582 f p582
+11 1
+.names o582 e q582
+11 1
+.names p582 q582 r582
+1- 1
+-1 1
+.names l582 r582 s582
+11 1
+.names m582 s582 v582
+1- 1
+-1 1
+.names r582 x582
+0 1
+.names s582 x582 y582
+1- 1
+-1 1
+.names v582 y582 z582
+11 1
+.names z582 d582 d583
+1- 1
+-1 1
+.names d583 e583
+0 1
+.names d582 e583 f583
+1- 1
+-1 1
+.names z582 e583 i583
+1- 1
+-1 1
+.names f583 i583 j583
+11 1
+.names o0 n0 m583
+11 1
+.names m583 n583
+0 1
+.names j583 n583 q583
+1- 1
+-1 1
+.names q583 m583 s583
+11 1
+.names q583 t583
+0 1
+.names t583 j583 v583
+1- 1
+-1 1
+.names v583 w583
+0 1
+.names s583 w583 x583
+1- 1
+-1 1
+.names x583 y583
+0 1
+.names f0 z583
+0 1
+.names b0 a584
+0 1
+.names z583 a584 b584
+1- 1
+-1 1
+.names b584 f0 c584
+11 1
+.names b584 b0 d584
+11 1
+.names c584 d584 e584
+1- 1
+-1 1
+.names e584 f584
+0 1
+.names x573 v574 g584
+1- 1
+-1 1
+.names g584 x h584
+11 1
+.names g584 t i584
+11 1
+.names h584 i584 j584
+1- 1
+-1 1
+.names e584 j584 k584
+11 1
+.names f584 k584 n584
+1- 1
+-1 1
+.names j584 p584
+0 1
+.names k584 p584 q584
+1- 1
+-1 1
+.names n584 q584 r584
+11 1
+.names y583 r584 u584
+1- 1
+-1 1
+.names x583 u584 v584
+11 1
+.names u584 w584
+0 1
+.names w584 r584 y584
+1- 1
+-1 1
+.names y584 z584
+0 1
+.names v584 z584 a585
+1- 1
+-1 1
+.names d582 l578 e585
+1- 1
+-1 1
+.names e585 f585
+0 1
+.names d582 f585 g585
+1- 1
+-1 1
+.names f585 l578 j585
+1- 1
+-1 1
+.names g585 j585 k585
+11 1
+.names o0 l0 n585
+11 1
+.names n585 o585
+0 1
+.names k585 o585 r585
+1- 1
+-1 1
+.names r585 n585 t585
+11 1
+.names r585 u585
+0 1
+.names u585 k585 w585
+1- 1
+-1 1
+.names w585 x585
+0 1
+.names t585 x585 y585
+1- 1
+-1 1
+.names y585 z585
+0 1
+.names d0 a586
+0 1
+.names z b586
+0 1
+.names a586 b586 c586
+1- 1
+-1 1
+.names c586 d0 d586
+11 1
+.names c586 z e586
+11 1
+.names d586 e586 f586
+1- 1
+-1 1
+.names f586 g586
+0 1
+.names e574 c575 h586
+1- 1
+-1 1
+.names h586 v i586
+11 1
+.names h586 r j586
+11 1
+.names i586 j586 k586
+1- 1
+-1 1
+.names f586 k586 l586
+11 1
+.names g586 l586 o586
+1- 1
+-1 1
+.names k586 q586
+0 1
+.names l586 q586 r586
+1- 1
+-1 1
+.names o586 r586 s586
+11 1
+.names z585 s586 v586
+1- 1
+-1 1
+.names y585 v586 w586
+11 1
+.names v586 x586
+0 1
+.names x586 s586 z586
+1- 1
+-1 1
+.names z586 a587
+0 1
+.names w586 a587 b587
+1- 1
+-1 1
+.names z582 h579 f587
+1- 1
+-1 1
+.names f587 g587
+0 1
+.names z582 g587 h587
+1- 1
+-1 1
+.names g587 h579 k587
+1- 1
+-1 1
+.names h587 k587 l587
+11 1
+.names o0 k0 o587
+11 1
+.names o587 p587
+0 1
+.names l587 p587 s587
+1- 1
+-1 1
+.names s587 o587 u587
+11 1
+.names s587 v587
+0 1
+.names v587 l587 x587
+1- 1
+-1 1
+.names x587 y587
+0 1
+.names u587 y587 z587
+1- 1
+-1 1
+.names z587 a588
+0 1
+.names c0 b588
+0 1
+.names y c588
+0 1
+.names b588 c588 d588
+1- 1
+-1 1
+.names d588 c0 e588
+11 1
+.names d588 y f588
+11 1
+.names e588 f588 g588
+1- 1
+-1 1
+.names g588 h588
+0 1
+.names f574 d575 i588
+1- 1
+-1 1
+.names i588 u j588
+11 1
+.names i588 q k588
+11 1
+.names j588 k588 l588
+1- 1
+-1 1
+.names g588 l588 m588
+11 1
+.names h588 m588 p588
+1- 1
+-1 1
+.names l588 r588
+0 1
+.names m588 r588 s588
+1- 1
+-1 1
+.names p588 s588 t588
+11 1
+.names a588 t588 w588
+1- 1
+-1 1
+.names z587 w588 x588
+11 1
+.names w588 y588
+0 1
+.names y588 t588 a589
+1- 1
+-1 1
+.names a589 b589
+0 1
+.names x588 b589 c589
+1- 1
+-1 1
+.names c589 d589
+0 1
+.names z583 h580 e589
+1- 1
+-1 1
+.names e589 f0 f589
+11 1
+.names e589 e0 g589
+11 1
+.names f589 g589 h589
+1- 1
+-1 1
+.names h589 i589
+0 1
+.names a586 b588 j589
+1- 1
+-1 1
+.names j589 d0 k589
+11 1
+.names j589 c0 l589
+11 1
+.names k589 l589 m589
+1- 1
+-1 1
+.names h589 m589 n589
+11 1
+.names i589 n589 q589
+1- 1
+-1 1
+.names m589 s589
+0 1
+.names n589 s589 t589
+1- 1
+-1 1
+.names q589 t589 u589
+11 1
+.names r574 u589 z589
+1- 1
+-1 1
+.names z589 a590
+0 1
+.names u589 a590 b590
+1- 1
+-1 1
+.names r574 a590 e590
+1- 1
+-1 1
+.names b590 e590 f590
+11 1
+.names o0 j0 i590
+11 1
+.names i590 j590
+0 1
+.names f590 j590 m590
+1- 1
+-1 1
+.names m590 i590 o590
+11 1
+.names m590 p590
+0 1
+.names p590 f590 r590
+1- 1
+-1 1
+.names r590 s590
+0 1
+.names o590 s590 t590
+1- 1
+-1 1
+.names t590 u590
+0 1
+.names k581 s577 v590
+1- 1
+-1 1
+.names v590 p w590
+11 1
+.names v590 l x590
+11 1
+.names w590 x590 y590
+1- 1
+-1 1
+.names y590 z590
+0 1
+.names g582 o578 a591
+1- 1
+-1 1
+.names a591 h b591
+11 1
+.names a591 d c591
+11 1
+.names b591 c591 d591
+1- 1
+-1 1
+.names y590 d591 e591
+11 1
+.names z590 e591 h591
+1- 1
+-1 1
+.names d591 j591
+0 1
+.names e591 j591 k591
+1- 1
+-1 1
+.names h591 k591 l591
+11 1
+.names u590 l591 o591
+1- 1
+-1 1
+.names t590 o591 p591
+11 1
+.names o591 q591
+0 1
+.names q591 l591 s591
+1- 1
+-1 1
+.names s591 t591
+0 1
+.names p591 t591 u591
+1- 1
+-1 1
+.names u591 v591
+0 1
+.names a584 i580 w591
+1- 1
+-1 1
+.names w591 b0 x591
+11 1
+.names w591 a0 y591
+11 1
+.names x591 y591 z591
+1- 1
+-1 1
+.names z591 a592
+0 1
+.names b586 c588 b592
+1- 1
+-1 1
+.names b592 z c592
+11 1
+.names b592 y d592
+11 1
+.names c592 d592 e592
+1- 1
+-1 1
+.names z591 e592 f592
+11 1
+.names a592 f592 i592
+1- 1
+-1 1
+.names e592 k592
+0 1
+.names f592 k592 l592
+1- 1
+-1 1
+.names i592 l592 m592
+11 1
+.names p575 m592 r592
+1- 1
+-1 1
+.names r592 s592
+0 1
+.names m592 s592 t592
+1- 1
+-1 1
+.names p575 s592 w592
+1- 1
+-1 1
+.names t592 w592 x592
+11 1
+.names o0 i0 a593
+11 1
+.names a593 b593
+0 1
+.names x592 b593 e593
+1- 1
+-1 1
+.names e593 a593 g593
+11 1
+.names e593 h593
+0 1
+.names h593 x592 j593
+1- 1
+-1 1
+.names j593 k593
+0 1
+.names g593 k593 l593
+1- 1
+-1 1
+.names l593 m593
+0 1
+.names l581 t577 n593
+1- 1
+-1 1
+.names n593 o o593
+11 1
+.names n593 k p593
+11 1
+.names o593 p593 q593
+1- 1
+-1 1
+.names q593 r593
+0 1
+.names h582 p578 s593
+1- 1
+-1 1
+.names s593 g t593
+11 1
+.names s593 c u593
+11 1
+.names t593 u593 v593
+1- 1
+-1 1
+.names q593 v593 w593
+11 1
+.names r593 w593 z593
+1- 1
+-1 1
+.names v593 b594
+0 1
+.names w593 b594 c594
+1- 1
+-1 1
+.names z593 c594 d594
+11 1
+.names m593 d594 g594
+1- 1
+-1 1
+.names l593 g594 h594
+11 1
+.names g594 i594
+0 1
+.names i594 d594 k594
+1- 1
+-1 1
+.names k594 l594
+0 1
+.names h594 l594 m594
+1- 1
+-1 1
+.names u589 m592 q594
+1- 1
+-1 1
+.names q594 r594
+0 1
+.names u589 r594 s594
+1- 1
+-1 1
+.names m592 r594 v594
+1- 1
+-1 1
+.names s594 v594 w594
+11 1
+.names o0 h0 z594
+11 1
+.names z594 a595
+0 1
+.names w594 a595 d595
+1- 1
+-1 1
+.names d595 z594 f595
+11 1
+.names d595 g595
+0 1
+.names g595 w594 i595
+1- 1
+-1 1
+.names i595 j595
+0 1
+.names f595 j595 k595
+1- 1
+-1 1
+.names k595 l595
+0 1
+.names r581 z577 m595
+1- 1
+-1 1
+.names m595 n n595
+11 1
+.names m595 j o595
+11 1
+.names n595 o595 p595
+1- 1
+-1 1
+.names p595 q595
+0 1
+.names n582 v578 r595
+1- 1
+-1 1
+.names r595 f s595
+11 1
+.names r595 b t595
+11 1
+.names s595 t595 u595
+1- 1
+-1 1
+.names p595 u595 v595
+11 1
+.names q595 v595 y595
+1- 1
+-1 1
+.names u595 a596
+0 1
+.names v595 a596 b596
+1- 1
+-1 1
+.names y595 b596 c596
+11 1
+.names l595 c596 f596
+1- 1
+-1 1
+.names k595 f596 g596
+11 1
+.names f596 h596
+0 1
+.names h596 c596 j596
+1- 1
+-1 1
+.names j596 k596
+0 1
+.names g596 k596 l596
+1- 1
+-1 1
+.names v591 q577 m594 l596 m596
+1--- 1
+-1-- 1
+--1- 1
+---1 1
+.names m594 n596
+0 1
+.names q577 u591 n596 l596 o596
+1--- 1
+-1-- 1
+--1- 1
+---1 1
+.names l596 p596
+0 1
+.names q577 u591 p596 m594 q596
+1--- 1
+-1-- 1
+--1- 1
+---1 1
+.names r577 u591 m594 l596 s596
+1--- 1
+-1-- 1
+--1- 1
+---1 1
+.names m596 o596 q596 s596 t596
+1111 1
+.names j581 a585 b587 d589 t596 w596
+1---- 1
+-1--- 1
+--1-- 1
+---1- 1
+----1 1
+.names r577 w596 x596
+1- 1
+-1 1
+.names w573 x596 y596
+1- 1
+-1 1
+.names x596 z596
+0 1
+.names y596 z596 a597
+11 1
+.names y596 a b597
+11 1
+.names a597 b597 p0
+1- 1
+-1 1
+.names p596 w596 e597
+1- 1
+-1 1
+.names v578 e597 f597
+1- 1
+-1 1
+.names e597 g597
+0 1
+.names f597 g597 h597
+11 1
+.names f597 b i597
+11 1
+.names h597 i597 q0
+1- 1
+-1 1
+.names n596 w596 l597
+1- 1
+-1 1
+.names p578 l597 m597
+1- 1
+-1 1
+.names l597 n597
+0 1
+.names m597 n597 o597
+11 1
+.names m597 c p597
+11 1
+.names o597 p597 r0
+1- 1
+-1 1
+.names v591 w596 s597
+1- 1
+-1 1
+.names o578 s597 t597
+1- 1
+-1 1
+.names s597 u597
+0 1
+.names t597 u597 v597
+11 1
+.names t597 d w597
+11 1
+.names v597 w597 s0
+1- 1
+-1 1
+.names a585 j581 c598
+11 1
+.names c598 d598
+0 1
+.names d589 t596 b587 d598 e598
+1--- 1
+-1-- 1
+--1- 1
+---1 1
+.names r577 e598 f598
+1- 1
+-1 1
+.names v576 f598 g598
+1- 1
+-1 1
+.names f598 h598
+0 1
+.names g598 h598 i598
+11 1
+.names g598 e j598
+11 1
+.names i598 j598 t0
+1- 1
+-1 1
+.names p596 e598 m598
+1- 1
+-1 1
+.names n582 m598 n598
+1- 1
+-1 1
+.names m598 o598
+0 1
+.names n598 o598 p598
+11 1
+.names n598 f q598
+11 1
+.names p598 q598 u0
+1- 1
+-1 1
+.names n596 e598 t598
+1- 1
+-1 1
+.names h582 t598 u598
+1- 1
+-1 1
+.names t598 v598
+0 1
+.names u598 v598 w598
+11 1
+.names u598 g x598
+11 1
+.names w598 x598 v0
+1- 1
+-1 1
+.names v591 e598 a599
+1- 1
+-1 1
+.names g582 a599 b599
+1- 1
+-1 1
+.names a599 c599
+0 1
+.names b599 c599 d599
+11 1
+.names b599 h e599
+11 1
+.names d599 e599 w0
+1- 1
+-1 1
+.names b587 i599
+0 1
+.names j581 a585 i599 t596 c589 m599
+1---- 1
+-1--- 1
+--1-- 1
+---1- 1
+----1 1
+.names r577 m599 n599
+1- 1
+-1 1
+.names p576 n599 o599
+1- 1
+-1 1
+.names n599 p599
+0 1
+.names o599 p599 q599
+11 1
+.names o599 i r599
+11 1
+.names q599 r599 x0
+1- 1
+-1 1
+.names p596 m599 u599
+1- 1
+-1 1
+.names z577 u599 v599
+1- 1
+-1 1
+.names u599 w599
+0 1
+.names v599 w599 x599
+11 1
+.names v599 j y599
+11 1
+.names x599 y599 y0
+1- 1
+-1 1
+.names n596 m599 b600
+1- 1
+-1 1
+.names t577 b600 c600
+1- 1
+-1 1
+.names b600 d600
+0 1
+.names c600 d600 e600
+11 1
+.names c600 k f600
+11 1
+.names e600 f600 z0
+1- 1
+-1 1
+.names v591 m599 i600
+1- 1
+-1 1
+.names s577 i600 j600
+1- 1
+-1 1
+.names i600 k600
+0 1
+.names j600 k600 l600
+11 1
+.names j600 l m600
+11 1
+.names l600 m600 a1
+1- 1
+-1 1
+.names a585 j581 u600
+11 1
+.names u600 v600
+0 1
+.names t596 c589 i599 v600 w600
+1--- 1
+-1-- 1
+--1- 1
+---1 1
+.names r577 w600 x600
+1- 1
+-1 1
+.names o576 x600 y600
+1- 1
+-1 1
+.names x600 z600
+0 1
+.names y600 z600 a601
+11 1
+.names y600 m b601
+11 1
+.names a601 b601 b1
+1- 1
+-1 1
+.names p596 w600 e601
+1- 1
+-1 1
+.names r581 e601 f601
+1- 1
+-1 1
+.names e601 g601
+0 1
+.names f601 g601 h601
+11 1
+.names f601 n i601
+11 1
+.names h601 i601 c1
+1- 1
+-1 1
+.names n596 w600 l601
+1- 1
+-1 1
+.names l581 l601 m601
+1- 1
+-1 1
+.names l601 n601
+0 1
+.names m601 n601 o601
+11 1
+.names m601 o p601
+11 1
+.names o601 p601 d1
+1- 1
+-1 1
+.names v591 w600 s601
+1- 1
+-1 1
+.names k581 s601 t601
+1- 1
+-1 1
+.names s601 u601
+0 1
+.names t601 u601 v601
+11 1
+.names t601 p w601
+11 1
+.names v601 w601 e1
+1- 1
+-1 1
+.names i599 d589 a585 j581 c602
+1111 1
+.names j581 a585 e602
+1- 1
+-1 1
+.names e602 f602
+0 1
+.names f602 i599 d589 i602
+111 1
+.names a585 l602
+0 1
+.names b587 d589 j581 l602 m602
+1111 1
+.names c589 i599 j581 l602 q602
+1111 1
+.names c602 i602 m602 q602 r602
+1--- 1
+-1-- 1
+--1- 1
+---1 1
+.names r602 s602
+0 1
+.names s602 l596 n596 r577 u591 z602
+1---- 1
+-1--- 1
+--1-- 1
+---1- 1
+----1 1
+.names d589 z602 a603
+1- 1
+-1 1
+.names d575 a603 b603
+1- 1
+-1 1
+.names a603 c603
+0 1
+.names b603 c603 d603
+11 1
+.names b603 q e603
+11 1
+.names d603 e603 f1
+1- 1
+-1 1
+.names i599 z602 h603
+1- 1
+-1 1
+.names c575 h603 i603
+1- 1
+-1 1
+.names h603 j603
+0 1
+.names i603 j603 k603
+11 1
+.names i603 r l603
+11 1
+.names k603 l603 g1
+1- 1
+-1 1
+.names j581 z602 o603
+1- 1
+-1 1
+.names w574 o603 p603
+1- 1
+-1 1
+.names o603 q603
+0 1
+.names p603 q603 r603
+11 1
+.names p603 s s603
+11 1
+.names r603 s603 h1
+1- 1
+-1 1
+.names l602 z602 v603
+1- 1
+-1 1
+.names v574 v603 w603
+1- 1
+-1 1
+.names v603 x603
+0 1
+.names w603 x603 y603
+11 1
+.names w603 t z603
+11 1
+.names y603 z603 i1
+1- 1
+-1 1
+.names s602 l596 m594 r577 v591 j604
+1---- 1
+-1--- 1
+--1-- 1
+---1- 1
+----1 1
+.names d589 j604 k604
+1- 1
+-1 1
+.names f574 k604 l604
+1- 1
+-1 1
+.names k604 m604
+0 1
+.names l604 m604 n604
+11 1
+.names l604 u o604
+11 1
+.names n604 o604 j1
+1- 1
+-1 1
+.names i599 j604 r604
+1- 1
+-1 1
+.names e574 r604 s604
+1- 1
+-1 1
+.names r604 t604
+0 1
+.names s604 t604 u604
+11 1
+.names s604 v v604
+11 1
+.names u604 v604 k1
+1- 1
+-1 1
+.names j581 j604 y604
+1- 1
+-1 1
+.names y573 y604 z604
+1- 1
+-1 1
+.names y604 a605
+0 1
+.names z604 a605 b605
+11 1
+.names z604 w c605
+11 1
+.names b605 c605 l1
+1- 1
+-1 1
+.names l602 j604 f605
+1- 1
+-1 1
+.names x573 f605 g605
+1- 1
+-1 1
+.names f605 h605
+0 1
+.names g605 h605 i605
+11 1
+.names g605 x j605
+11 1
+.names i605 j605 m1
+1- 1
+-1 1
+.names r577 v591 p605
+11 1
+.names p605 q605
+0 1
+.names n596 q605 p596 s602 t605
+1--- 1
+-1-- 1
+--1- 1
+---1 1
+.names d589 t605 u605
+1- 1
+-1 1
+.names c588 u605 v605
+1- 1
+-1 1
+.names u605 w605
+0 1
+.names v605 w605 x605
+11 1
+.names v605 y y605
+11 1
+.names x605 y605 n1
+1- 1
+-1 1
+.names i599 t605 b606
+1- 1
+-1 1
+.names b586 b606 c606
+1- 1
+-1 1
+.names b606 d606
+0 1
+.names c606 d606 e606
+11 1
+.names c606 z f606
+11 1
+.names e606 f606 o1
+1- 1
+-1 1
+.names j581 t605 i606
+1- 1
+-1 1
+.names i580 i606 j606
+1- 1
+-1 1
+.names i606 k606
+0 1
+.names j606 k606 l606
+11 1
+.names j606 a0 m606
+11 1
+.names l606 m606 p1
+1- 1
+-1 1
+.names l602 t605 p606
+1- 1
+-1 1
+.names a584 p606 q606
+1- 1
+-1 1
+.names p606 r606
+0 1
+.names q606 r606 s606
+11 1
+.names q606 b0 t606
+11 1
+.names s606 t606 q1
+1- 1
+-1 1
+.names p596 s602 m594 v591 q577 d607
+1---- 1
+-1--- 1
+--1-- 1
+---1- 1
+----1 1
+.names d589 d607 e607
+1- 1
+-1 1
+.names b588 e607 f607
+1- 1
+-1 1
+.names e607 g607
+0 1
+.names f607 g607 h607
+11 1
+.names f607 c0 i607
+11 1
+.names h607 i607 r1
+1- 1
+-1 1
+.names i599 d607 l607
+1- 1
+-1 1
+.names a586 l607 m607
+1- 1
+-1 1
+.names l607 n607
+0 1
+.names m607 n607 o607
+11 1
+.names m607 d0 p607
+11 1
+.names o607 p607 s1
+1- 1
+-1 1
+.names j581 d607 s607
+1- 1
+-1 1
+.names h580 s607 t607
+1- 1
+-1 1
+.names s607 u607
+0 1
+.names t607 u607 v607
+11 1
+.names t607 e0 w607
+11 1
+.names v607 w607 t1
+1- 1
+-1 1
+.names l602 d607 z607
+1- 1
+-1 1
+.names z583 z607 a608
+1- 1
+-1 1
+.names z607 b608
+0 1
+.names a608 b608 c608
+11 1
+.names a608 f0 d608
+11 1
+.names c608 d608 u1
+1- 1
+-1 1
+.end
