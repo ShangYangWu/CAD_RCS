@@ -1,12 +1,12 @@
 README<BR/>
 
-# CAD_PROJECT 2
+# CAD_RCS
 CAD PROJECT 2<BR/>
 
 ## Generate Design:
 cd source_code<BR/>
 make<BR/>
-./M11215084 -h/-e ../aoi_benchmark/<filename.blif> and or not<BR/>
+./M11215084 -h/-e ../aoi_benchmark/filename.blif and or not<BR/>
 
 ### -h: using heuristic solver
 ./M11215084 -h ../aoi_benchmark/test.blif 2 1 1<BR/>
@@ -15,7 +15,7 @@ make<BR/>
 ./M11215084 -e ../aoi_benchmark/test.blif 2 1 1<BR/>
 
 ## Validate Design:
-./M11215084 -v \<filename.blif> 2 1 1 \<result_to_validate> <BR/>
+./M11215084 -v \filename.blif 2 1 1 \result_to_validate <BR/>
 
 ## Test case: Result with different latencies
 ### 1. using heuristic solver: latency=10
@@ -35,7 +35,7 @@ Heuristic Scheduling Result<BR/>
 LATENCY: 10<BR/>
 END<BR/>
 
-### 2. using ILP solver: latency=8
+### 2. using ILP solver: latency=8<BR/>
 ./M11215084 -e ../aoi_benchmark/test.blif 2 1 1<BR/>
 
 ILP-based Scheduling Result<BR/>
